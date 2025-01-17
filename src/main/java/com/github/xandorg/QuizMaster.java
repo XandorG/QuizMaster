@@ -83,7 +83,7 @@ public class QuizMaster {
                 break;
             }
         }
-        return new Question.Question(question, answers, correctAnswer);
+        return new Question(question, answers, correctAnswer);
     }
 
 }
