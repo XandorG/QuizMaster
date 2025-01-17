@@ -43,6 +43,10 @@ public class QuizMaster {
         scanner.close();
     }
 
+    public Question selectQuestion() {
+        return null;
+    }
+
     private List<Question> getQuestions(File quiz) {
         List<Question> questions = new ArrayList<>();
         try (Scanner scanner = new Scanner(quiz)) {
@@ -79,30 +83,7 @@ public class QuizMaster {
                 break;
             }
         }
-        return new Question(question, answers, correctAnswer);
+        return new Question.Question(question, answers, correctAnswer);
     }
 
-    private static class Question {
-        String question;
-        List<String> answers;
-        char correctAnswer;
-
-        public Question(String question, List<String> answers, char correctAnswer) {
-            this.question = question;
-            this.answers = answers;
-            this.correctAnswer = correctAnswer;
-        }
-
-        public void printQuestion() {
-            System.out.println(question);
-            System.out.println();
-            for (int i = 0; i < answers.size(); i++) {
-                System.out.println(answers.get(i));
-            }
-        }
-
-        public boolean checkAnswer(char answer) {
-            return answer == correctAnswer;
-        }
-    }
 }
