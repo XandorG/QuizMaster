@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class QuizCompiler {
-    private static final String fullQuizName = "APIQuiz";
+    private static final String fullQuizName = "APIQuiz.txt";
     private static final String coursePath = "D:\\School\\CampusMölndal\\lectures\\5_api\\";
 
     public static void main(String[] args) throws IOException {
