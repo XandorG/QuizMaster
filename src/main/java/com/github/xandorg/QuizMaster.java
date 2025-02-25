@@ -13,7 +13,7 @@ public class QuizMaster {
 
     public static void main(String[] args) {
 //        String fullQuizPath = "src/main/resources/Test_quiz_Updated_250114-COMPLETE.md";
-        String fullQuizPath = "src/main/resources/APIQuiz";
+        String fullQuizPath = "src/main/resources/APIQuiz.txt";
 
         QuizMaster quizMaster = new QuizMaster(new File(fullQuizPath));
         quizMaster.runQuiz();
@@ -54,11 +54,15 @@ public class QuizMaster {
 //        int listSelection = random.nextInt(101);
 //        if (listSelection < correctPercentage) {
 //            //Correctly answered questions
+//            System.out.println("Correct");
 //        } else if (listSelection < unknownPercentage) {
 //            //Unknown questions
+//            System.out.println("Unknown");
 //        } else if (listSelection < neutralPercentage) {
+//            System.out.println("Neutral");
 //            //Neutral Answered questions
 //        } else if (listSelection <= wrongPercentage){
+//            System.out.println("Wrong");
 //            //Wrongly answered questions
 //        }
 
