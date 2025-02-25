@@ -12,7 +12,8 @@ public class QuizMaster {
 
 
     public static void main(String[] args) {
-        String fullQuizPath = "src/main/resources/Test_quiz_Updated_250114-COMPLETE.md";
+//        String fullQuizPath = "src/main/resources/Test_quiz_Updated_250114-COMPLETE.md";
+        String fullQuizPath = "src/main/resources/APIQuiz";
 
         QuizMaster quizMaster = new QuizMaster(new File(fullQuizPath));
         quizMaster.runQuiz();

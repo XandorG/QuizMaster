@@ -16,7 +16,9 @@ public class QuizReader {
                     continue;
                 }
                 if (line.contains("?")) {
-                    questions.add(readQuestion(scanner, line));
+                    if (line.toLowerCase().charAt(line.length() - 1) == '?') {
+                        questions.add(readQuestion(scanner, line));
+                    }
                 }
             }
         } catch (FileNotFoundException e) {
@@ -30,7 +32,7 @@ public class QuizReader {
         char correctAnswer = 'ö';
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            if (line.contains("A) ")) {
+            if ((line.contains("A) ") || line.contains("B) ") || line.contains("C) ") || line.contains("D) ")) && !line.contains("Rätt svar:")) {
                 answers.add(line);
                 for (int i = 0; i < 3; i++) {
                     line = scanner.nextLine();
@@ -39,7 +41,7 @@ public class QuizReader {
                 continue;
             }
             if (line.contains("Rätt svar:")) {
-                correctAnswer = line.toLowerCase().charAt(line.length()-1);
+                correctAnswer = line.toLowerCase().charAt(11);
                 break;
             }
         }

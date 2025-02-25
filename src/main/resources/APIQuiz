@@ -1,0 +1,1920 @@
+1. Vilket av följande är huvudsyftet med ett API?
+A) Att möjliggöra kommunikation mellan olika mjukvarusystem
+B) Att lagra data i en databas
+C) Att skapa grafiska användargränssnitt
+D) Att optimera serverkonfigurationer
+Rätt svar: a
+2. Vilken påstående är korrekt angående API:ers funktion?
+A) API:er är alltid begränsade till webbaserade applikationer
+B) API:er fungerar som en ersättning för databaser
+C) API:er definierar regler för hur olika applikationer kan kommunicera
+D) API:er är primärt designade för att förbättra användargränssnitt
+Rätt svar: c
+3. Vad är en viktig säkerhetsaspekt att överväga vid API-design?
+A) Att maximera antalet tillåtna anrop per sekund
+B) Att använda HTTP istället för HTTPS
+C) Att implementera OAuth 2.0 för säker åtkomst
+D) Att lagra känslig information i klartext
+Rätt svar: c
+4. Vilken av följande är inte en vanlig typ av API?
+A) REST API
+B) SOAP API
+C) WebSocket API
+D) SQL API
+Rätt svar: d
+5. Vad är huvudsyftet med API-versionshantering?
+A) Att öka antalet samtidiga användare
+B) Att minska serverns belastning
+C) Att förbättra databasernas prestanda
+D) Att upprätthålla bakåtkompatibilitet vid uppdateringar
+Rätt svar: d
+6. Vilket verktyg används ofta för att testa och interagera med API:er?
+A) Postman
+B) MySQL Workbench
+C) Visual Studio Code
+D) Adobe Photoshop
+Rätt svar: a
+7. Vad är en fördel med GraphQL jämfört med traditionella REST API:er?
+A) GraphQL kräver mindre serverresurser
+B) GraphQL använder alltid mindre bandbredd
+C) GraphQL tillåter klienten att specificera exakt vilken data som behövs
+D) GraphQL är enklare att implementera för nybörjare
+Rätt svar: c
+8. Vilken är en viktig aspekt att tänka på vid optimering av API-prestanda?
+A) Att alltid inkludera all tillgänglig data i varje svar
+B) Att implementera effektiv caching
+C) Att öka antalet nödvändiga API-anrop
+D) Att undvika all form av datavalidering
+Rätt svar: b
+9. Vad är en viktig del av god API-dokumentation?
+A) Detaljerade beskrivningar av intern serverarkitektur
+B) Tydliga exempel på request/response för varje endpoint
+C) Personlig information om API-utvecklarna
+D) Fullständig källkod för hela API:et
+Rätt svar: b
+10. Vilken är en viktig övervägande vid design av ett skalbart API?
+A) Att begränsa antalet samtidiga användare
+B) Att alltid använda en enda central server
+C) Att undvika all form av caching
+D) Att implementera lastbalansering
+Rätt svar: d
+1. Vilket av följande är inte en vanlig typ av API som diskuteras i moderna webbutveckling?
+A) REST
+B) XML-RPC
+C) GraphQL
+D) SOAP
+Rätt svar: b
+2. Vad är huvudsyftet med en API Gateway?
+A) Att generera API-dokumentation automatiskt
+B) Att konvertera mellan olika programmeringsspråk
+C) Att fungera som en central ingångspunkt för klientförfrågningar
+D) Att optimera databasförfrågningar
+Rätt svar: c
+3. Vilken påstående är korrekt angående WebSocket API?
+A) Det använder alltid XML för dataöverföring
+B) Det möjliggör dubbelriktad kommunikation i realtid
+C) Det är bäst lämpat för sporadiska datauppdateringar
+D) Det är statiskt och kräver ny anslutning för varje förfrågan
+Rätt svar: b
+4. Vilket av följande är en fördel med GraphQL jämfört med traditionella REST API:er?
+A) Möjlighet för klienten att specificera exakt vilken data som behövs
+B) Inbyggd säkerhet och kryptering
+C) Bättre prestanda för alla typer av förfrågningar
+D) Enklare implementation på serversidan
+Rätt svar: a
+5. Vad menas med "API-först design" inom mjukvaruutveckling?
+A) Att skapa API:er endast för externa användare
+B) Att fokusera enbart på API-utveckling och ignorera frontend
+C) Att definiera API:et innan implementation av backend eller frontend
+D) Att alltid använda den senaste API-teknologin
+Rätt svar: c
+6. Vilken av följande är inte en vanlig best practice för API-design?
+A) Tillhandahålla tydlig dokumentation
+B) Använda HTTP för all kommunikation
+C) Implementera versionshantering
+D) Implementera konsekvent felhantering
+Rätt svar: b
+7. Vilket påstående om SOAP API är korrekt?
+A) Det använder JSON som primärt dataformat
+B) Det har inbyggda säkerhetsfunktioner som WS-Security
+C) Det är stateful och kräver sessionshantering
+D) Det är alltid snabbare än REST API:er
+Rätt svar: b
+8. Vad är en av de största utmaningarna med att använda WebSockets i en skalbar applikation?
+A) Begränsad dataöverföringshastighet
+B) Svårigheter att implementera säkerhetsprotokoll
+C) Hantering av persistenta anslutningar
+D) Kompatibilitetsproblem med moderna webbläsare
+Rätt svar: c
+9. Vilken av följande är en korrekt beskrivning av REST API:er?
+A) De använder ett single endpoint för alla förfrågningar
+B) De kräver alltid XML för dataöverföring
+C) De är optimala för realtidskommunikation
+D) De är stateless och varje förfrågan innehåller all nödvändig information
+Rätt svar: d
+10. Vilket av följande är ett viktigt övervägande vid val av API-typ för ett projekt?
+A) Antalet tillgängliga tredjepartsbibliotek
+B) Projektets specifika krav och användningsfall
+C) Populariteten hos API-typen i branschpress
+D) Personliga preferenser hos utvecklingsteamet
+Rätt svar: b
+1. Vilket av följande är INTE ett lager i TCP/IP-modellen?
+A) Transportlager
+B) Applikationslager
+C) Presentationslager
+D) Internetlager
+Rätt svar: c
+2. Vad är huvudsyftet med DNS (Domain Name System) i nätverkskommunikation?
+A) Att hantera routing av datapaket
+B) Att översätta domännamn till IP-adresser
+C) Att kryptera data i transit
+D) Att kontrollera nätverkstrafik
+Rätt svar: b
+3. Vilket protokoll används vanligtvis för att säkra HTTP-kommunikation?
+A) HTTPS
+B) FTP
+C) TCP
+D) UDP
+Rätt svar: a
+4. Vilken påstående om portar i nätverkskommunikation är korrekt?
+A) Portar är endast relevanta för UDP-protokollet
+B) Varje enhet har en unik port
+C) HTTP använder alltid port 443
+D) Portar används för att skilja mellan olika tjänster på samma IP-adress
+Rätt svar: d
+5. Vilket av följande är INTE en vanlig metod för att optimera nätverkskommunikation?
+A) Implementera caching
+B) Öka antalet HTTP-förfrågningar
+C) Använda komprimering
+D) Implementera connection pooling
+Rätt svar: b
+6. Vad är huvudsyftet med WebSockets i nätverkskommunikation?
+A) Att ersätta HTTP-protokollet
+B) Att möjliggöra full-duplex, bi-direktionell kommunikation
+C) Att förbättra säkerheten i nätverkskommunikation
+D) Att öka bandbredden för dataöverföring
+Rätt svar: b
+7. Vilket av följande är en fördel med gRPC jämfört med traditionella REST API:er?
+A) Enklare att implementera för nybörjare
+B) Högre prestanda genom binär serialisering
+C) Bättre kompatibilitet med äldre system
+D) Mer flexibel datastruktur
+Rätt svar: b
+8. Vilken funktion har transportlagret i TCP/IP-modellen?
+A) Att hantera fysisk överföring av data
+B) Att ansvara för end-to-end-kommunikation
+C) Att hantera applikationsspecifika protokoll
+D) Att adressera och routa datapaket
+Rätt svar: b
+9. Vilket påstående om HTTPS är korrekt?
+A) HTTPS använder samma port som HTTP
+B) HTTPS garanterar fullständig säkerhet för all data på servern
+C) HTTPS eliminerar behovet av API-nycklar
+D) HTTPS krypterar data i transit
+Rätt svar: d
+10. Vad är huvudsyftet med load balancing i nätverkskommunikation?
+A) Att översätta domännamn till IP-adresser
+B) Att fördela trafik över flera servrar
+C) Att komprimera nätverkstrafik
+D) Att öka säkerheten i nätverket
+Rätt svar: b
+1. Vilket av följande är inte en huvudanledning till att Spring Boot har blivit ett populärt verktyg för utvecklare?
+A) Snabb utveckling
+B) Inbyggd säkerhet
+C) Stöd för legacy-system
+D) Skalbarhet
+Rätt svar: c
+2. Vad är huvudsyftet med Spring Boot's auto-konfiguration?
+A) Att automatiskt skapa databasscheman
+B) Att konfigurera applikationen baserat på tillagda beroenden
+C) Att eliminera behovet av all manuell kodning
+D) Att generera användargränssnitt
+Rätt svar: b
+3. Vilken princip följer Spring Boot för att minska manuell konfiguration?
+A) Convention over configuration
+B) Configuration over convention
+C) Code first
+D) Dependency injection
+Rätt svar: a
+4. Vilket påstående om Spring Boot's inbyggda applikationsserver är korrekt?
+A) Den kräver separat installation och konfiguration
+B) Den ersätter behovet av externa servrar som Tomcat
+C) Den måste konfigureras manuellt för varje projekt
+D) Den fungerar endast med specifika databashanterare
+Rätt svar: b
+5. Vilken av följande är inte en vanlig missuppfattning om Spring Boot?
+A) Det kräver omfattande konfiguration
+B) Det är endast lämpligt för stora företagsapplikationer
+C) Det är långsamt jämfört med lättviktiga ramverk
+D) Det är svårt att integrera med externa bibliotek
+Rätt svar: d
+6. Vilket av följande är ett primärt syfte med Spring Boot Actuator?
+A) Att optimera databasprestanda
+B) Att generera API-dokumentation
+C) Att övervaka och hantera applikationen i produktion
+D) Att automatisera enhetstester
+Rätt svar: c
+7. Vad är huvudsyftet med @ControllerAdvice-annotationen i Spring Boot?
+A) Att optimera API-prestanda
+B) Att konfigurera databasanslutningar
+C) Att definiera globala exception handlers
+D) Att hantera användarautentisering
+Rätt svar: c
+8. Vilket påstående om mikroservices med Spring Boot är korrekt?
+A) De kräver alltid en extern applikationsserver
+B) De underlättar oberoende skalning av tjänster
+C) De är olämpliga för små projekt
+D) De eliminerar behovet av distribuerad loggning
+Rätt svar: b
+9. Vilken best practice bör följas vid design av RESTful API:er med Spring Boot?
+A) Använda meningsfulla URL:er och rätt HTTP-metoder
+B) Använda samma HTTP-metod för alla endpoints
+C) Undvika användning av HTTP-statuskoder
+D) Implementera komplex affärslogik i controllers
+Rätt svar: a
+10. Vad är huvudsyftet med Spring Boot Starter-beroenden?
+A) Att ersätta behovet av externa bibliotek
+B) Att förenkla konfigurationen av vanliga funktioner
+C) Att automatiskt generera kodstruktur
+D) Att optimera applikationens prestanda
+Rätt svar: b
+1. Vilket av följande är inte en grundläggande princip för det kalkylator-API som beskrivs i materialet?
+A) RESTful
+B) Stateless
+C) Synkronisering
+D) Modularitet
+Rätt svar: c
+2. Vad är huvudsyftet med att använda DTO:er (Data Transfer Objects) i API-design?
+A) Att strukturera svar och separera intern och extern datarepresentation
+B) Att öka systemets prestanda
+C) Att förbättra säkerheten genom kryptering
+D) Att möjliggöra realtidsuppdateringar
+Rätt svar: a
+3. Vilken HTTP-metod rekommenderas för idempotenta operationer som inte ändrar systemets tillstånd?
+A) PUT
+B) DELETE
+C) POST
+D) GET
+Rätt svar: d
+4. Vilket påstående är korrekt angående felhantering i API-design?
+A) Felhantering är endast nödvändig för komplexa operationer
+B) Alla fel bör resultera i en 500 Internal Server Error
+C) Robust felhantering är kritisk även för enkla operationer
+D) Felmeddelanden bör alltid innehålla detaljerad teknisk information
+Rätt svar: c
+5. Vilken annotation används i Spring Boot för att markera en klass som en REST-controller?
+A) @Service
+B) @Repository
+C) @Controller
+D) @RestController
+Rätt svar: d
+6. Vad är huvudsyftet med att implementera API-versionshantering?
+A) Att öka API:ets prestanda
+B) Att möjliggöra utveckling utan att bryta befintliga klientintegrationer
+C) Att förbättra API:ets säkerhet
+D) Att minska serverbelastningen
+Rätt svar: b
+7. Vilket verktyg rekommenderas i materialet för att automatiskt generera API-dokumentation?
+A) README.md filer
+B) JavaDoc
+C) Swagger/OpenAPI
+D) Postman
+Rätt svar: c
+8. Vilken princip bör följas vid design av ett API enligt expertkommentaren i materialet?
+A) Maximal komplexitet för att visa teknisk skicklighet
+B) Fokus på serveroptimering framför allt annat
+C) Minsta förvåning och självförklarande design
+D) Strikt adherence till ett specifikt programmeringsspråk
+Rätt svar: c
+9. Vad är en viktig aspekt att testa enligt expertkommentaren om teststrategi för API:er?
+A) Endast lyckade scenarier
+B) Gränsfall och felscenarier
+C) Endast prestandatester
+D) Utseendet på API-dokumentationen
+Rätt svar: b
+10. Vilken är en rekommenderad strategi för att hantera tidskrävande beräkningar i ett API?
+A) Alltid använda GET-metoden
+B) Implementera asynkron bearbetning
+C) Öka serverns RAM
+D) Begränsa antalet samtidiga användare
+Rätt svar: b
+1. Vilket av följande är huvudsyftet med att implementera felhantering i ett API?
+C) Att minska serverbelastningen
+D) Att öka antalet möjliga API-anrop
+B) Att göra API:et mer användarvänligt och robust
+A) Att förbättra API:ets prestanda
+Rätt svar: b
+2. Vad är den primära funktionen av @RequestParam-annotationen i Spring Boot?
+A) Att validera inkommande data
+C) Att binda query-parametrar till metodparametrar
+B) Att hantera exceptions
+D) Att definiera API-rutter
+Rätt svar: c
+3. Vilken av följande är en best practice vid implementering av felhantering i ett REST API?
+B) Att inkludera stacktrace i API-svaret
+D) Att ignorera alla fel för att förbättra prestandan
+A) Att alltid returnera en 500 Internal Server Error vid fel
+C) Att ge användarvänliga felmeddelanden
+Rätt svar: c
+4. Vad är huvudsyftet med att använda anpassade undantag (custom exceptions) i ett API?
+C) Att minska kodkomplexiteten
+A) Att förbättra API:ets prestanda
+D) Att undvika all felhantering
+B) Att ge mer specifik felrapportering
+Rätt svar: b
+5. Vilken annotation används i Spring Boot för att definiera en metod som hanterar specifika undantag?
+C) @ErrorController
+A) @ControllerAdvice
+D) @HandleException
+B) @ExceptionHandler
+Rätt svar: b
+6. Vad är det bästa sättet att hantera känslig data i query-parametrar?
+D) Lagra känslig data i cookies
+C) Undvik att använda query-parametrar för känslig data
+A) Kryptera alla query-parametrar
+B) Använd alltid POST-metoden istället för GET
+Rätt svar: c
+7. Vilket påstående om stateless design i API-utveckling är korrekt?
+D) Det ökar belastningen på databasen
+C) Det underlättar horisontell skalning
+B) Det kräver alltid användning av sessioner
+A) Det försvårar skalning av API:et
+Rätt svar: c
+8. Vad är huvudsyftet med att implementera rate limiting i ett API?
+C) Att minska serverns energiförbrukning
+D) Att förenkla API-dokumentationen
+A) Att förbättra API:ets prestanda
+B) Att skydda mot överbelastningsattacker
+Rätt svar: b
+9. Vilket av följande är en fördel med att använda pagination i API-design?
+B) Det möjliggör realtidsuppdateringar
+D) Det ökar säkerheten i API:et
+C) Det reducerar mängden data som överförs per request
+A) Det eliminerar behovet av databaser
+Rätt svar: c
+10. Vad är det primära syftet med att använda HTTPS i API-kommunikation?
+D) Att förenkla API-implementationen
+A) Att öka API:ets hastighet
+C) Att skydda data under överföring
+B) Att minska serverbelastningen
+Rätt svar: c
+1. Vilket av följande är INTE en av de sex huvudprinciperna för REST?
+A) Stateless
+B) Cacheable
+C) Databas-driven
+D) Uniform interface
+Rätt svar: c
+2. Vad är huvudsyftet med att använda substantiv i plural för URI:er i RESTful API-design?
+A) För att förbättra databasens prestanda
+B) För att göra API:et mer säkert
+C) För att indikera att resursen är en samling
+D) För att minska nätverkslatensen
+Rätt svar: c
+3. Vilken HTTP-metod används vanligtvis för att uppdatera en existerande resurs i ett RESTful API?
+A) DELETE
+B) PUT
+C) GET
+D) POST
+Rätt svar: b
+4. Vilket påstående är korrekt angående versionering av RESTful API:er?
+A) Versionering hjälper till att hantera API-evolution utan att bryta existerande klienter
+B) Versionering bör alltid implementeras genom URL-parameterr
+C) Versionering försämrar API:ets prestanda
+D) Versionering är onödigt för små API:er
+Rätt svar: a
+5. Vad är huvudsyftet med HATEOAS i RESTful API-design?
+A) Att förenkla databasoperationer
+B) Att öka API:ets prestanda
+C) Att förbättra API:ets säkerhet
+D) Att göra API:et självbeskrivande och upptäckbart
+Rätt svar: d
+6. Vilket av följande är ett exempel på en best practice för felhantering i RESTful API:er?
+A) Inkludera stacktrace i felmeddelanden
+B) Använd lämpliga HTTP-statuskoder för olika typer av fel
+C) Returnera alltid HTTP-statuskod 200 OK
+D) Skicka aldrig felmeddelanden till klienten
+Rätt svar: b
+7. Vilken teknik används ofta för att begränsa antalet anrop en klient kan göra till ett API under en given tidsperiod?
+A) CORS
+B) OAuth 2.0
+C) API Throttling
+D) HTTPS
+Rätt svar: c
+8. Vilket påstående är korrekt angående användningen av HTTP-metoder i RESTful API-design?
+A) PUT används endast för att skapa nya resurser
+B) DELETE är idempotent
+C) POST används för att hämta en resurs
+D) GET-anrop bör ändra serverdata
+Rätt svar: b
+9. Vad är huvudsyftet med att implementera caching i ett RESTful API?
+A) Att möjliggöra offline-funktionalitet
+B) Att förenkla API-dokumentationen
+C) Att förbättra svarstider och minska serverbelastning
+D) Att öka säkerheten
+Rätt svar: c
+10. Vilket av följande är en fördel med att använda en API Gateway i en mikroservicearkitektur?
+A) Det garanterar 100% upptid för alla tjänster
+B) Det eliminerar behovet av säkerhet i individuella tjänster
+C) Det ersätter behovet av lastbalansering
+D) Det centraliserar autentisering, auktorisering och övervakning
+Rätt svar: d
+1. Vilket av följande är INTE en vanlig HTTP-metod i RESTful API-design?
+A) DELETE
+B) POST
+C) FETCH
+D) GET
+Rätt svar: c
+2. Vad är huvudsyftet med resursmodellering i REST?
+A) Att hantera nätverkskommunikation
+B) Att identifiera och strukturera API:ets entiteter
+C) Att implementera säkerhetsfunktioner
+D) Att optimera databasstrukturen
+Rätt svar: b
+3. Vilken HTTP-metod används vanligtvis för att uppdatera en del av en befintlig resurs?
+A) PUT
+B) POST
+C) UPDATE
+D) PATCH
+Rätt svar: d
+4. Vilket påstående är korrekt angående idempotens i RESTful API-design?
+A) POST är alltid idempotent
+B) GET, PUT och DELETE ska vara idempotenta
+C) Alla HTTP-metoder ska vara idempotenta
+D) Endast GET-metoden är idempotent
+Rätt svar: b
+5. Vad är den främsta fördelen med att använda substantiv istället för verb i URI:er för RESTful API:er?
+A) Det följer RESTful principer och ökar tydligheten
+B) Det förbättrar API:ets prestanda
+C) Det gör API:et mer säkert
+D) Det möjliggör enklare databasqueries
+Rätt svar: a
+6. Vilken statuskod bör returneras när en ny resurs skapas framgångsrikt via en POST-förfrågan?
+A) 202 Accepted
+B) 200 OK
+C) 201 Created
+D) 204 No Content
+Rätt svar: c
+7. Vilket av följande är INTE en rekommenderad best practice för RESTful API-design?
+A) Implementera versionering av API:et
+B) Alltid returnera fullständiga resursobjekt
+C) Använda rätt HTTP-statuskoder
+D) Validera indata för att säkerställa dataintegritet
+Rätt svar: b
+8. Vad är huvudsyftet med att implementera paginering i ett RESTful API?
+A) Att minska serverns belastning
+B) Att hantera stora datamängder effektivt
+C) Att förbättra API:ets säkerhet
+D) Att förenkla klientimplementationen
+Rätt svar: b
+9. Vilken teknik används för att göra ett RESTful API mer självbeskrivande och lättare att navigera?
+A) OAuth 2.0
+B) GraphQL
+C) JWT
+D) HATEOAS
+Rätt svar: d
+10. Vilket påstående är korrekt angående användningen av PUT-metoden i RESTful API:er?
+A) PUT är idempotent och ersätter hela resursen
+B) PUT används för att skapa nya resurser
+C) PUT kan inte skapa resurser om de inte redan existerar
+D) PUT används för partiella uppdateringar av resurser
+Rätt svar: a
+1. Vilket är det primära syftet med att använda HTTP-statuskoder i ett API?
+A) Att ge omedelbar feedback om resultatet av en förfrågan
+B) Att förbättra prestandan för API:et
+C) Att hantera versionshantering av API:et
+D) Att implementera säkerhetsåtgärder
+Rätt svar: a
+2. Vilken av följande principer är INTE en del av god URL-design för RESTful API:er?
+A) Använd substantiv istället för verb
+B) Använd plural för samlingar
+C) Inkludera API-nyckel i URL:en
+D) Använd hierarki för att visa relationer
+Rätt svar: c
+3. Vilken HTTP-statuskod används vanligtvis för att indikera att en resurs har skapats framgångsrikt?
+A) 200 OK
+B) 201 Created
+C) 204 No Content
+D) 302 Found
+Rätt svar: b
+4. Vad är huvudsyftet med att implementera paginering i ett API?
+A) Att förbättra API:ets säkerhet
+B) Att implementera HATEOAS
+C) Att förenkla versionshanteringen av API:et
+D) Att minska serverbelastningen vid stora datamängder
+Rätt svar: d
+5. Vilket påstående om HTTP-statuskoder i 4xx-serien är korrekt?
+A) De indikerar alltid ett serverfel
+B) De används endast för autentiseringsfel
+C) De signalerar att klienten behöver göra ytterligare åtgärder
+D) De indikerar vanligtvis ett problem med klientens förfrågan
+Rätt svar: d
+6. Vilken av följande är INTE en rekommenderad metod för att optimera prestandan i ett RESTful API?
+A) Implementera caching med ETag-headers
+B) Använda GZIP-komprimering
+C) Öka antalet nästlade resurser i URL:er
+D) Stödja partiella svar med fältfiltrering
+Rätt svar: c
+7. Vad är huvudsyftet med att implementera content negotiation i ett API?
+A) Att förbättra säkerheten
+B) Att möjliggöra olika datarepresentationer baserat på klientens preferenser
+C) Att hantera API-versioner
+D) Att implementera rate limiting
+Rätt svar: b
+8. Vilket av följande är ett exempel på en väl designad URL för ett RESTful API?
+A) /api/users/123/posts
+B) /api/users/123/delete
+C) /api/getUserById?id=123
+D) /api/executeUserUpdate/123
+Rätt svar: a
+9. Vilken HTTP-statuskod bör användas när en begärd resurs inte längre är tillgänglig och inte kommer att bli tillgänglig igen?
+A) 404 Not Found
+B) 410 Gone
+C) 204 No Content
+D) 304 Not Modified
+Rätt svar: b
+10. Vad är huvudsyftet med att implementera HATEOAS i ett RESTful API?
+A) Att förbättra API-säkerheten
+B) Att göra API:et mer självbeskrivande och flexibelt
+C) Att öka prestandan för API-anrop
+D) Att hantera versionshantering av API:et
+Rätt svar: b
+1. Vilket av följande är inte en fördel med att använda Spring Boot för API-utveckling?
+A) Auto-konfiguration
+B) Manuell databashantering
+C) Inbyggd server
+D) Produktionsredo funktioner
+Rätt svar: b
+2. Vad är huvudsyftet med @RestController-annotationen i Spring Boot?
+A) Att konfigurera applikationens säkerhetsinställningar
+B) Att definiera URL-mappningar för alla metoder i klassen
+C) Att markera en klass som en REST-controller
+D) Att hantera databasoperationer
+Rätt svar: c
+3. Vilken annotation används för att binda inkommande JSON-data till Java-objekt i en controller-metod?
+A) @RequestBody
+B) @JsonBind
+C) @ResponseEntity
+D) @RequestParam
+Rätt svar: a
+4. Vilket påstående är korrekt angående Spring Boot's auto-konfiguration?
+A) Den kan anpassas efter behov
+B) Den är alltid optimal för alla typer av applikationer
+C) Den kan inte åsidosättas av utvecklaren
+D) Den kräver omfattande manuell konfiguration
+Rätt svar: a
+5. Vad är huvudsyftet med att använda ResponseEntity i en controller-metod?
+A) Att definiera URL-mappningar
+B) Att validera inkommande data
+C) Att hantera databasoperationer
+D) Att ge full kontroll över HTTP-svaret
+Rätt svar: d
+6. Vilket av följande är inte en vanlig strategi för API-versionshantering?
+A) URL-versioning
+B) Database-versioning
+C) Header-versioning
+D) Media type versioning
+Rätt svar: b
+7. Vad är huvudsyftet med att använda @ControllerAdvice i Spring Boot?
+A) Att konfigurera databasens connection pool
+B) Att implementera caching-strategier
+C) Att definiera globala exception handlers
+D) Att hantera request routing
+Rätt svar: c
+8. Vilket påstående är korrekt angående användningen av DTOs (Data Transfer Objects) i API-design?
+A) DTOs används enbart för databasoperationer
+B) DTOs hjälper till att separera intern datamodell från extern representation
+C) DTOs ersätter behovet av entitetsklasser
+D) DTOs är obligatoriska för alla Spring Boot-applikationer
+Rätt svar: b
+9. Vilken av följande är inte en vanlig prestandaövervägande vid utveckling av Spring Boot API:er?
+A) Manuell hantering av garbage collection
+B) Implementering av caching
+C) Användning av paginering för stora datamängder
+D) Asynkron bearbetning av långvariga operationer
+Rätt svar: a
+10. Vad är huvudsyftet med att använda @Valid-annotationen i en controller-metod?
+A) Att kontrollera API-versionskompabilitet
+B) Att validera databasens schema
+C) Att verifiera användarens autentisering
+D) Att validera inkommande request-data
+Rätt svar: d
+1. Vilket av följande är inte ett huvudsyfte med CRUD-operationer i moderna applikationer?
+A) Datamanipulation
+B) Informationsåtkomst
+C) Datakomprimering
+D) Dataunderhåll
+Rätt svar: c
+2. Vilken komponent i Spring Boot-arkitekturen ansvarar vanligtvis för direkt interaktion med databasen?
+A) Repository
+B) Service
+C) Controller
+D) Entity
+Rätt svar: a
+3. Vilken HTTP-metod används vanligtvis för att uppdatera befintlig data i en CRUD-operation?
+A) DELETE
+B) GET
+C) POST
+D) PUT
+Rätt svar: d
+4. Vad är huvudsyftet med att använda Data Transfer Objects (DTO) i en CRUD-implementation?
+A) Möjliggöra realtidsuppdateringar
+B) Separera API-representation från datamodellen
+C) Öka databashastigheten
+D) Förbättra säkerheten genom kryptering
+Rätt svar: b
+5. Vilket påstående är korrekt angående idempotens i CRUD-operationer?
+A) Idempotens är irrelevant för CRUD-operationer
+B) PUT-operationer bör vara idempotenta
+C) Endast GET-operationer kan vara idempotenta
+D) Alla CRUD-operationer måste vara idempotenta
+Rätt svar: b
+6. Vad är huvudsyftet med att implementera paginering i CRUD-operationer?
+A) Hantera stora datamängder effektivt
+B) Möjliggöra offline-åtkomst till data
+C) Öka databasens lagringsutrymme
+D) Förbättra datasäkerheten
+Rätt svar: a
+7. Vilken funktion har @Transactional-annotationen i Spring Boot?
+A) Implementera caching
+B) Hantera transaktioner deklarativt
+C) Konfigurera databaskopplingar
+D) Hantera HTTP-sessioner
+Rätt svar: b
+8. Vad är huvudsyftet med optimistisk låsning i CRUD-operationer?
+A) Automatisera backupprocesser
+B) Förhindra obehörig åtkomst till data
+C) Hantera samtidiga uppdateringar utan att låsa databasen
+D) Öka hastigheten på databasoperationer
+Rätt svar: c
+9. Vilket av följande är inte en vanlig best practice för RESTful API-design i CRUD-operationer?
+A) Använda korrekta HTTP-metoder för olika operationer
+B) Använda komplexa URL-strukturer för ökad säkerhet
+C) Implementera versionering av API:et
+D) Hantera fel konsekvent med lämpliga statuskoder
+Rätt svar: b
+10. Vad är huvudsyftet med att använda @Valid-annotationen i en Spring Boot-controller?
+A) Generera automatisk API-dokumentation
+B) Optimera databasförfrågningar
+C) Implementera caching för förbättrad prestanda
+D) Validera inkommande data
+Rätt svar: d
+1. Vilket av följande är inte en huvudanledning till varför effektiv hantering av request bodies och response entities är viktigt?
+A) Garanterar alltid snabbare API-prestanda
+B) Möjliggör hantering av komplexa datastrukturer
+C) Säkerställer dataintegritet
+D) Tillåter effektiv dataöverföring
+Rätt svar: a
+2. Vad är huvudsyftet med att använda DTO:er (Data Transfer Objects) i API-design?
+A) Att automatiskt validera all inkommande data
+B) Att separera API-representation från domänmodeller
+C) Att ersätta alla domänmodeller
+D) Att öka komplexiteten i API:et
+Rätt svar: b
+3. Vilken annotation används i Spring Boot för att indikera att en metod-parameter ska bindas till request body?
+A) @PathVariable
+B) @ModelAttribute
+C) @RequestBody
+D) @RequestParam
+Rätt svar: c
+4. Vilket påstående om ResponseEntity i Spring Boot är korrekt?
+A) Det kan endast användas för att returnera enkla datatyper
+B) Det ersätter helt behovet av att använda @ResponseBody
+C) Det kan endast användas i kombination med @RestController
+D) Det ger fin kontroll över HTTP-svar, inklusive statuskoder och headers
+Rätt svar: d
+5. Vilken av följande är inte en rekommenderad best practice för hantering av request bodies och response entities?
+A) Implementera global exception handling för konsistenta felsvar
+B) Validera inkommande data med hjälp av Bean Validation-annotationer
+C) Alltid returnera hela dataobjekt oavsett klientens behov
+D) Använda DTO:er för att separera API-representation från domänmodeller
+Rätt svar: c
+6. Vilket av följande är ett vanligt användningsområde för anpassad deserialisering i Spring Boot?
+A) Att öka storleken på inkommande request bodies
+B) Att ersätta alla standardserialiserare i applikationen
+C) Att automatiskt kryptera all inkommande data
+D) Att hantera datum i specifika format
+Rätt svar: d
+7. Vilken teknik är mest lämplig för att hantera mycket stora datamängder i API-svar?
+A) Att kryptera all utgående data
+B) Att implementera paginering
+C) Att alltid skicka all data i ett enda svar
+D) Att begränsa API:et till små datamängder
+Rätt svar: b
+8. Vad är huvudsyftet med att använda @Valid annotation i en controller-metod?
+A) Att validera inkommande request data
+B) Att öka prestandan för API-anrop
+C) Att generera API-dokumentation
+D) Att automatiskt serialisera svaret till JSON
+Rätt svar: a
+9. Vilken påstående om felhantering i RESTful API:er är korrekt?
+A) Felhantering är onödigt i moderna API:er
+B) Felmeddelanden bör alltid innehålla fullständiga stacktraces
+C) Konsekvent felhantering och meningsfulla felmeddelanden är viktigt
+D) Alla fel bör resultera i en 500 Internal Server Error
+Rätt svar: c
+10. Vilket av följande är inte en vanlig prestandaoptimering för API:er som hanterar stora datamängder?
+A) Överväga att implementera streaming för mycket stora dataset
+B) Använda compression för stora response bodies
+C) Implementera caching för frekventa förfrågningar
+D) Öka komplexiteten i varje enskild API-endpoint
+Rätt svar: d
+1. Vilket av följande är inte en datatyp som stöds av JSON?
+A) Array
+B) Function
+C) Boolean
+D) Object
+Rätt svar: b
+2. Vad är huvudsyftet med JSON Schema?
+A) Att kryptera JSON-data
+B) Att validera strukturen på JSON-data
+C) Att konvertera JSON till XML
+D) Att komprimera JSON-data
+Rätt svar: b
+3. Vilket påstående om JSON är korrekt?
+A) JSON kräver att alla värden är strängar
+B) JSON är språkoberoende
+C) JSON tillåter kommentarer i sin struktur
+D) JSON är ett programmeringsspråk
+Rätt svar: b
+4. Vilken metod används vanligtvis för att konvertera ett Java-objekt till JSON?
+A) Parsing
+B) Encryption
+C) Compilation
+D) Serialization
+Rätt svar: d
+5. Vad är syftet med JSON Web Tokens (JWT)?
+A) Att validera JSON-syntax
+B) Att kryptera hela JSON-dokument
+C) Att säkert överföra information mellan parter
+D) Att komprimera JSON-data
+Rätt svar: c
+6. Vilket av följande är inte en del av en JSON Web Token (JWT)?
+A) Schema
+B) Header
+C) Payload
+D) Signature
+Rätt svar: a
+7. Vilken annotation används ofta i Java för att exkludera null-värden vid JSON-serialisering?
+A) @JsonOmitNull
+B) @JsonIgnoreNull
+C) @JsonInclude(JsonInclude.Include.NON_NULL)
+D) @JsonExcludeNull
+Rätt svar: c
+8. Vad är den huvudsakliga fördelen med att använda JSON i RESTful API:er?
+A) Det garanterar alltid korrekt datastruktur
+B) Det är lättviktigt och lätt att tolka för både människor och maskiner
+C) Det erbjuder inbyggd kryptering
+D) Det är det enda formatet som stöds av HTTP
+Rätt svar: b
+9. Vilket av följande är ett vanligt användningsområde för JSON?
+A) Direktmanipulation av binära filer
+B) Konfiguration av databasscheman
+C) Kompilering av källkod
+D) Datautbyte i webbapplikationer
+Rätt svar: d
+10. Vilken typ av attack är särskilt viktig att skydda sig mot när man hanterar inkommande JSON-data?
+A) Denial-of-service-attacker
+B) Man-in-the-middle-attacker
+C) Injektionsattacker
+D) Brute force-attacker
+Rätt svar: c
+1. Vilket av följande är huvudsyftet med att använda Jackson-biblioteket i Spring Boot?
+A) Att konvertera mellan JSON och Java-objekt
+B) Att hantera databasanslutningar
+C) Att implementera säkerhetsfilter
+D) Att optimera SQL-frågor
+Rätt svar: a
+2. Vad är ObjectMapper i Jackson-biblioteket?
+A) Ett verktyg för att generera Java-klasser från JSON
+B) En klass för att mappa databastabeller
+C) En mekanism för att hantera sessioner i webbapplikationer
+D) Huvudkomponenten för konvertering mellan JSON och Java-objekt
+Rätt svar: d
+3. Vilken annotation används i Java för att mappar ett fält till ett annat namn i JSON?
+A) @JsonSerialize
+B) @JsonIgnore
+C) @JsonProperty
+D) @JsonFormat
+Rätt svar: c
+4. Vilket påstående om DTO:er (Data Transfer Objects) i samband med JSON-hantering är korrekt?
+A) De är obligatoriska för all JSON-serialisering
+B) De kan separera API-representation från domänmodeller
+C) De ersätter behovet av Jackson-biblioteket
+D) De används enbart för databaspersistens
+Rätt svar: b
+5. Vad är huvudsyftet med att använda @JsonIgnore-annotationen?
+A) Att markera fält som ska krypteras
+B) Att förhindra cirkulära referenser i JSON
+C) Att exkludera känsliga eller onödiga fält från JSON-serialisering
+D) Att ignorera inkommande JSON-data vid deserialisering
+Rätt svar: c
+6. Vilken funktion fyller @ControllerAdvice i samband med JSON-felhantering?
+A) Den validerar inkommande JSON-data
+B) Den möjliggör global felhantering för konsistenta JSON-svar
+C) Den optimerar JSON-parsing
+D) Den konfigurerar Jackson ObjectMapper
+Rätt svar: b
+7. Vilket av följande är ett exempel på en prestandaoptimering vid hantering av stora JSON-strukturer?
+A) Att konvertera all JSON till XML
+B) Att använda Jacksons streaming API
+C) Att alltid använda DTO:er
+D) Att öka serverminnet
+Rätt svar: b
+8. Vad är huvudsyftet med JSON Patch i RESTful API:er?
+A) Att komprimera JSON för snabbare överföring
+B) Att kryptera JSON-data
+C) Att validera inkommande JSON-struktur
+D) Att möjliggöra partiella uppdateringar av resurser
+Rätt svar: d
+9. Vilken annotation används för att hantera olika versioner av JSON-serialisering i samma API?
+A) @JsonProperty
+B) @JsonTypeInfo
+C) @JsonSerialize
+D) @JsonFormat
+Rätt svar: c
+10. Vad är den främsta fördelen med att implementera paginering i JSON-svar från ett API?
+A) Det eliminerar behovet av caching
+B) Det ökar säkerheten i API:et
+C) Det förbättrar JSON-parsningen på klientsidan
+D) Det möjliggör effektiv hantering av stora datamängder
+Rätt svar: d
+1. Vilket av följande är det primära syftet med JSON-serialisering?
+A) Att konvertera Java-objekt till JSON-strängar
+B) Att komprimera data för effektivare lagring
+C) Att kryptera känslig information
+D) Att validera datastrukturer
+Rätt svar: a
+2. Vad är huvudsyftet med Jackson-annotationer i kontexten av JSON-hantering?
+A) Att generera API-dokumentation automatiskt
+B) Att optimera databasens prestanda
+C) Att ge fin kontroll över serialiserings- och deserialiseringsprocessen
+D) Att hantera felmeddelanden i Spring Boot-applikationer
+Rätt svar: c
+3. Vilken av följande är en korrekt beskrivning av JSON-deserialisering?
+A) Konverteringen av Java-objekt till JSON-strängar
+B) Processen att komprimera JSON-data för effektiv lagring
+C) Valideringen av JSON-strukturer mot ett schema
+D) Omvandlingen av JSON-strängar till Java-objekt
+Rätt svar: d
+4. Vilket påstående om ObjectMapper i Spring Boot är korrekt?
+A) Den konfigureras automatiskt av Spring Boot för grundläggande användning
+B) Den måste skapas manuellt för varje serialiserings-/deserialiseringsoperation
+C) Den är inte trådsäker och bör inte återanvändas
+D) Den kan endast hantera enkla datatyper som strängar och heltal
+Rätt svar: a
+5. Vad är huvudsyftet med @JsonIgnore-annotationen?
+A) Att ange ett anpassat datumformat för ett fält
+B) Att markera ett fält som obligatoriskt vid deserialisering
+C) Att exkludera ett fält från JSON-serialisering och -deserialisering
+D) Att hantera cirkulära referenser i JSON-strukturer
+Rätt svar: c
+6. Vilken av följande tekniker är mest lämplig för att hantera stora JSON-strukturer effektivt?
+A) Att konvertera all JSON till XML före bearbetning
+B) Att alltid ladda hela JSON-strukturen i minnet
+C) Att använda Jacksons streaming API för partiell parsing
+D) Att begränsa alla JSON-strukturer till en maximal storlek
+Rätt svar: c
+7. Vad är det primära syftet med DTO:er (Data Transfer Objects) i kontexten av JSON-API:er?
+A) Att hantera autentisering och auktorisering
+B) Att separera intern datamodell från API-representationen
+C) Att öka prestandan för databastransaktioner
+D) Att automatiskt generera API-dokumentation
+Rätt svar: b
+8. Vilket av följande är ett viktigt säkerhetsövervägande vid JSON-serialisering?
+A) Att alltid kryptera alla JSON-strängar
+B) Att förhindra exponering av känslig information
+C) Att begränsa JSON-strukturernas djup
+D) Att använda Base64-kodning för alla värden
+Rätt svar: b
+9. Vilken teknik är mest lämplig för att hantera versionshantering av JSON-API:er?
+A) Att kryptera äldre versioner av API:et
+B) Att använda olika URL:er för olika API-versioner
+C) Att alltid kräva ett versionsnummer i varje JSON-objekt
+D) Att ändra databasschema för varje API-version
+Rätt svar: b
+10. Vad är huvudsyftet med anpassade serialiserare och deserialiserare i Jackson?
+A) Att automatiskt validera alla inkommande JSON-data
+B) Att kryptera känslig information i JSON
+C) Att förbättra prestandan för alla JSON-operationer
+D) Att hantera komplex logik eller speciella dataformat
+Rätt svar: d
+1. Vilket av följande är huvudsyftet med XML Schema (XSD)?
+A) Att definiera layouten för XML-dokument
+B) Att validera struktur och datatyper i XML-dokument
+C) Att komprimera XML-data för effektiv lagring
+D) Att konvertera XML till JSON-format
+Rätt svar: b
+2. Vilken parsningsmetod är mest lämplig för att hantera mycket stora XML-dokument med begränsat minne?
+A) DOM (Document Object Model)
+B) JAXB (Java Architecture for XML Binding)
+C) SAX (Simple API for XML)
+D) XPath
+Rätt svar: c
+3. Vad är en av de största säkerhetsriskerna associerade med XML-parsning?
+A) XML External Entity (XXE) attacker
+B) SQL-injektion
+C) Cross-site scripting (XSS)
+D) Buffer overflow
+Rätt svar: a
+4. Vilket påstående är korrekt angående XML:s användning i moderna system?
+A) XML används endast för webbdesign
+B) XML används fortfarande brett i vissa branschspecifika applikationer
+C) XML används enbart i föråldrade system
+D) XML har helt ersatts av JSON i alla moderna applikationer
+Rätt svar: b
+5. Vilken av följande är inte en fördel med att använda XML?
+A) Flexibilitet i datastrukturer
+B) Självdokumenterande natur
+C) Snabb parsning av stora datamängder
+D) Stöd för komplexa valideringsregler
+Rätt svar: c
+6. Vad är huvudsyftet med att använda namespaces i XML?
+A) Att komprimera XML-data
+B) Att kryptera känslig information
+C) Att förhindra namnkollisioner mellan element
+D) Att öka läsbarheten för människor
+Rätt svar: c
+7. Vilket av följande är ett exempel på en XML-baserad teknologi som fortfarande används brett i företagsmiljöer?
+A) RESTful API:er
+B) SOAP Web Services
+C) GraphQL
+D) WebSocket
+Rätt svar: b
+8. Vilken teknik används ofta för att optimera prestandan vid hantering av stora XML-dokument?
+A) Implementera strömbaserad parsning
+B) Öka RAM-minnet
+C) Konvertera till JSON
+D) Använda DOM-parsning
+Rätt svar: a
+9. Vad är den primära fördelen med att använda XML för konfigurationsfiler jämfört med andra format?
+A) Bättre stöd för komplexa strukturer och validering
+B) Snabbare läsning av data
+C) Mindre filstorlek
+D) Enklare att redigera manuellt
+Rätt svar: a
+10. Vilken åtgärd är mest effektiv för att förhindra XML External Entity (XXE) attacker?
+A) Kryptera XML-data
+B) Använda HTTPS för dataöverföring
+C) Öka timeouts för XML-parsning
+D) Inaktivera DTD-processing i XML-parsern
+Rätt svar: d
+1. Vilket av följande är inte en primär anledning till varför kunskap om både XML och JSON är viktig för utvecklare?
+A) Interoperabilitet mellan system
+B) Prestandaoptimering av API:er
+C) Grafisk representation av data
+D) Framtidssäkring av designbeslut
+Rätt svar: c
+2. Vad är en korrekt beskrivning av strukturskillnaden mellan XML och JSON?
+A) XML använder en trädstruktur, JSON använder objekt och arrayer
+B) XML använder objekt, JSON använder element
+C) XML använder arrayer, JSON använder key-value par
+D) XML och JSON har identisk struktur men olika syntax
+Rätt svar: a
+3. Vilken påstående om datatyper i XML och JSON är korrekt?
+A) XML kräver schema för typvalidering
+B) XML har inbyggt stöd för nummer och booleaner
+C) JSON lagrar allt som text och kräver schema för validering
+D) JSON och XML hanterar datatyper på exakt samma sätt
+Rätt svar: a
+4. Vilket verktyg är mest lämpligt för att konvertera mellan XML och JSON i Java?
+A) JDBC
+B) SAX Parser
+C) DOM Parser
+D) Jackson biblioteket
+Rätt svar: d
+5. Vad är en best practice vid hantering av XML och JSON data?
+A) Konvertera all data till plaintext före bearbetning
+B) Alltid skriva egen parsningslogik
+C) Ignorera namnrymder i XML
+D) Validera inkommande data före konvertering
+Rätt svar: d
+6. Vilken säkerhetsrisk är specifikt associerad med XML?
+A) Cross-Site Scripting (XSS)
+B) SQL Injection
+C) XML External Entity (XXE) attacker
+D) JSON Injection
+Rätt svar: c
+7. Vad är en korrekt strategi för att hantera stora datamängder vid konvertering mellan XML och JSON?
+A) Öka RAM-minnet i servern
+B) Använda strömbaserade API:er
+C) Alltid läsa hela dokumentet i minnet
+D) Konvertera data till binärt format först
+Rätt svar: b
+8. Vilket påstående om prestanda mellan XML och JSON är generellt accepterat?
+A) XML-serialisering är alltid snabbare än JSON-serialisering
+B) Filstorleken är identisk för samma data i XML och JSON
+C) XML är alltid snabbare att parsa än JSON
+D) JSON är generellt mer kompakt än XML
+Rätt svar: d
+9. Vilken teknik är mest lämplig för att förbättra skalbarheten i system som hanterar både XML och JSON?
+A) Konvertera all data till ett gemensamt format
+B) Implementera lastbalansering
+C) Öka processorhastigheten på servern
+D) Begränsa API-anrop till endast XML
+Rätt svar: b
+10. Vad är huvudsyftet med att använda både XML och JSON i moderna system?
+A) Att försvåra för hackers
+B) Att möta olika klientbehov och integrationsscenarion
+C) Att minska nätverkstrafiken
+D) Att öka datamängden
+Rätt svar: b
+1. Vilket är det primära syftet med att implementera stöd för både JSON och XML i ett Spring Boot API?
+D) Att minska API:ets säkerhet
+A) Att öka API:ets komplexitet
+C) Att öka API:ets flexibilitet och användbarhet
+B) Att förbättra API:ets prestanda
+Rätt svar: c
+2. Vilken mekanism använder Spring Boot främst för att bestämma vilket dataformat som ska användas i en API-respons?
+B) Content negotiation
+C) Hårdkodade inställningar
+A) URL-parametrar
+D) Slumpmässigt val
+Rätt svar: b
+3. Vad är huvudfunktionen av en HttpMessageConverter i Spring Boot?
+A) Att komprimera HTTP-meddelanden
+B) Att kryptera data under överföring
+C) Att konvertera mellan Java-objekt och olika representationsformat
+D) Att validera inkommande HTTP-förfrågningar
+Rätt svar: c
+4. Vilket av följande är inte en vanlig missuppfattning om att implementera stöd för både JSON och XML i ett API?
+C) Det påverkar alltid prestandan negativt
+B) Det är komplicerat att konfigurera
+A) Det kräver separata endpoints för varje format
+D) Det ökar API:ets användbarhet för olika klienter
+Rätt svar: d
+5. Vilken annotation används vanligtvis i Spring Boot för att indikera att en klass är en RESTful controller som kan hantera både JSON och XML?
+D) @XMLJSONController
+A) @Controller
+B) @ResponseBody
+C) @RestController
+Rätt svar: c
+6. Vilket säkerhetsproblem är särskilt relevant när man hanterar XML-data i ett API?
+B) Cross-Site Scripting (XSS)
+C) XML External Entity (XXE) attacker
+A) SQL-injektion
+D) Broken Authentication
+Rätt svar: c
+7. Vilken prestandaaspekt är särskilt viktig att överväga när man hanterar både JSON och XML i samma API?
+D) Databasanslutningar
+B) Nätverkslatens
+C) Serialisering/deserialisering-hastighet
+A) CPU-användning
+Rätt svar: c
+8. Vilket av följande är ett effektivt sätt att hantera stora datamängder i ett API som stöder både JSON och XML?
+A) Öka serverkapaciteten
+D) Använda endast JSON för stora datamängder
+C) Implementera lazy loading
+B) Begränsa API-anrop per användare
+Rätt svar: c
+9. Vad är huvudsyftet med att implementera versionering i ett API som stöder både JSON och XML?
+B) Att förenkla utvecklingsprocessen
+D) Att minska API:ets attackyta
+C) Att möjliggöra framtida ändringar utan att bryta befintliga integrationer
+A) Att öka API:ets prestanda
+Rätt svar: c
+10. Vilken teknik kan användas för att förbättra prestandan i ett API som hanterar både JSON och XML för ofta efterfrågade resurser?
+D) Paginering
+C) Kryptering
+B) Caching
+A) Komprimering
+Rätt svar: b
+1. Vilket av följande är inte en grundläggande princip för API-säkerhet?
+A) Autentisering
+B) Kryptering
+C) Normalisering
+D) Validering
+Rätt svar: c
+2. Vad är huvudsyftet med auktorisering i API-säkerhet?
+A) Att verifiera användarens identitet
+B) Att validera inkommande data
+C) Att bestämma vad en autentiserad användare får göra
+D) Att kryptera data under överföring
+Rätt svar: c
+3. Vilken påstående om HTTPS är korrekt när det gäller API-säkerhet?
+A) HTTPS ersätter behovet av autentisering
+B) HTTPS skyddar endast data under överföring
+C) HTTPS garanterar att användaren är behörig
+D) HTTPS är tillräckligt för att fullständigt säkra ett API
+Rätt svar: b
+4. Vilket av följande är inte en vanlig metod för autentisering i API-kontext?
+A) Basic Authentication
+B) IP-filtrering
+C) Token-baserad autentisering
+D) OAuth 2.0
+Rätt svar: b
+5. Vilken är den främsta fördelen med att använda JWT (JSON Web Tokens) för autentisering?
+A) De eliminerar behovet av serversessioner
+B) De fungerar utan HTTPS
+C) De är oknäckbara
+D) De kan inte bli stulna
+Rätt svar: a
+6. Vad är huvudsyftet med att implementera rate limiting i en API?
+A) Att minska serverkostnaderna
+B) Att förhindra brute force-attacker
+C) Att öka API:ets prestanda
+D) Att förbättra databasåtkomsten
+Rätt svar: b
+7. Vilket av följande är inte en rekommenderad praxis för lösenordshantering i API-säkerhet?
+A) Använda säkra hashningsfunktioner
+B) Lagra lösenord i klartext för snabb åtkomst
+C) Implementera multi-factor authentication
+D) Använda starka, slumpmässiga lösenord
+Rätt svar: b
+8. Vad är huvudsyftet med OAuth 2.0 i API-säkerhet?
+A) Att ersätta HTTPS
+B) Att möjliggöra säker delegerad åtkomst
+C) Att kryptera all datatrafik
+D) Att automatiskt generera API-nycklar
+Rätt svar: b
+9. Vilket påstående om intern API-säkerhet är korrekt?
+A) Interna API:er behöver inte säkras
+B) Interna API:er bör skyddas för att förhindra lateral rörelse vid intrång
+C) Interna API:er kräver mindre säkerhet än publika API:er
+D) Säkerhet för interna API:er hanteras automatiskt av företagets brandvägg
+Rätt svar: b
+10. Vilken är den främsta fördelen med att använda token-baserad autentisering i en mikroservicearkitektur?
+A) Det eliminerar behovet av kryptering
+B) Det ersätter behovet av HTTPS
+C) Det möjliggör stateless autentisering mellan tjänster
+D) Det garanterar 100% säkerhet mot alla typer av attacker
+Rätt svar: c
+1. Vilket av följande är inte en del av JWT-strukturen?
+A) Signature
+B) Header
+C) Encryption
+D) Payload
+Rätt svar: c
+2. Vad är huvudsyftet med HTTPS/TLS i API-säkerhet?
+A) Att generera JWT-tokens
+B) Att kryptera kommunikationen mellan klient och server
+C) Att verifiera användarens identitet
+D) Att hantera användarrättigheter
+Rätt svar: b
+3. Vilken påstående om JWT är korrekt?
+A) JWT kräver en databas för validering
+B) JWT kan inte innehålla anpassade claims
+C) JWT är alltid krypterade
+D) JWT är stateless och självinnehållande
+Rätt svar: d
+4. Vilket av följande är inte en standardclaim i JWT?
+A) exp (Expiration Time)
+B) role (User Role)
+C) iss (Issuer)
+D) sub (Subject)
+Rätt svar: b
+5. Vad är huvudsyftet med JwtRequestFilter i en Spring Boot-applikation?
+A) Att kryptera känslig information
+B) Att hantera användarregistrering
+C) Att validera inkommande JWT-tokens
+D) Att generera nya JWT-tokens
+Rätt svar: c
+6. Vilken av följande är en fördel med TLS 1.3 jämfört med tidigare versioner?
+A) Ökad komplexitet i konfigurationen
+B) Stöd för äldre krypteringsalgoritmer
+C) Längre handskakningsprocess
+D) Reducerad handskakningtid
+Rätt svar: d
+7. Vad är best practice för hantering av känslig information i JWT-payload?
+A) Öka token-storleken för att rymma mer data
+B) Kryptera hela payload-delen
+C) Alltid inkludera all användarinformation
+D) Undvika att lagra känslig information om möjligt
+Rätt svar: d
+8. Vilket påstående om HTTPS är felaktigt?
+A) HTTPS skyddar mot alla typer av cyberattacker
+B) HTTPS använder TLS för kryptering
+C) HTTPS verifierar serverns identitet
+D) HTTPS säkerställer dataintegritet under överföring
+Rätt svar: a
+9. Vad är huvudsyftet med att implementera token-förnyelse i en JWT-baserad autentiseringslösning?
+A) Att eliminera behovet av HTTPS
+B) Att öka storleken på token
+C) Att minska serverbelastningen
+D) Att förbättra användarsäkerheten
+Rätt svar: d
+10. Vilken av följande är inte en rekommenderad praxis vid implementering av JWT-autentisering?
+A) Använda korta utgångstider för tokens
+B) Implementera token-förnyelse
+C) Rotera signeringsnycklar regelbundet
+D) Lagra JWT i localStorage i webbläsaren
+Rätt svar: d
+1. Vilket av följande är INTE ett huvudsyfte med säker API-nyckelhantering?
+A) Förhindra obehörig åtkomst
+B) Skydda företagets resurser
+C) Öka hastigheten på API-anrop
+D) Upprätthålla användarnas förtroende
+Rätt svar: c
+2. Vad är det huvudsakliga syftet med token-förnyelse i JWT-hantering?
+A) Att minska serverbelastningen
+B) Att eliminera behovet av initial autentisering
+C) Att möjliggöra obegränsad åtkomst till API:er
+D) Att öka säkerheten genom att regelbundet byta ut tokens
+Rätt svar: d
+3. Vilken av följande är en best practice för API-nyckelhantering?
+A) Implementera regelbunden nyckelrotation
+B) Lagra API-nycklar i klartext i databasen
+C) Använda samma API-nyckel för alla klienter
+D) Inkludera API-nycklar direkt i frontend-kod
+Rätt svar: a
+4. Vilket påstående är korrekt angående JWT (JSON Web Tokens)?
+A) JWT kan aldrig återkallas
+B) JWT är stateful och kräver serversessioner
+C) JWT kan implementeras med återkallelsesmekanismer
+D) JWT är endast lämpliga för engångsautentisering
+Rätt svar: c
+5. Vad är huvudsyftet med att använda en Hardware Security Module (HSM) i API-säkerhetskontext?
+A) Att automatisera API-dokumentation
+B) Att förbättra användarupplevelsen för API-konsumenter
+C) Att säkert generera och lagra kryptografiska nycklar
+D) Att öka hastigheten på API-anrop
+Rätt svar: c
+6. Vilken av följande är INTE en vanlig komponent i livscykeln för API-nycklar?
+A) Generering
+B) Validering
+C) Kompilering
+D) Rotation
+Rätt svar: c
+7. Vad är huvudsyftet med att implementera rate limiting för API-nycklar?
+A) Att förbättra API:ets dokumentation
+B) Att minska latensen för API-anrop
+C) Att öka API:ets tillgänglighet
+D) Att förhindra missbruk av API:et
+Rätt svar: d
+8. Vilket av följande är ett exempel på en avancerad JWT-teknik?
+A) Sliding sessions
+B) Statisk token-generering
+C) Obegränsad token-livslängd
+D) Lagring av tokens i klartext
+Rätt svar: a
+9. Vilken är den primära fördelen med att implementera dynamisk API-nyckelhantering?
+A) Att eliminera behovet av autentisering
+B) Att öka flexibiliteten och säkerheten
+C) Att minska kostnaderna för API-drift
+D) Att förenkla API-dokumentationen
+Rätt svar: b
+10. Vad är det främsta syftet med att implementera token-revokering i ett JWT-baserat system?
+A) Att omedelbart kunna ogiltigförklara åtkomst vid säkerhetsincidenter
+B) Att öka systemets prestanda
+C) Att förenkla användarregistreringen
+D) Att automatisera token-generering
+Rätt svar: a
+1. Vad är huvudsyftet med JwtUtil-klassen i en Spring Boot-applikation?
+A) Att hantera databasanslutningar  
+B) Att generera och validera JWT-tokens  
+C) Att kryptera lösenord  
+D) Att hantera HTTP-requests
+Rätt svar: b
+2. Vilken information bör INTE lagras i en JWT-token?
+A) Användarens ID  
+B) Token's utgångsdatum  
+C) Lösenord  
+D) Användarnamn
+Rätt svar: c
+3. Vilken dependency krävs för att implementera JWT i ett Spring Boot-projekt?
+A) spring-boot-starter-web  
+B) spring-boot-starter-data-jpa  
+C) io.jsonwebtoken:jjwt  
+D) spring-boot-starter-test
+Rätt svar: c
+4. Hur bör tokens skickas från klienten till servern?
+A) I URL:en som en parameter  
+B) I request body  
+C) I Authorization-headern med Bearer-prefix  
+D) Som en cookie
+Rätt svar: c
+5. Vad är en säker lagringstid för JWT-tokens?
+A) 30 dagar  
+B) 10 timmar  
+C) Permanent  
+D) 1 år
+Rätt svar: b
+6. Vilket påstående om SignatureAlgorithm.HS512 är korrekt?
+A) Det är en asymmetrisk krypteringsalgoritm  
+B) Det är den minst säkra JWT-signeringsalgoritmen  
+C) Det är en HMAC SHA-512 signeringsalgoritm  
+D) Det kräver ett publikt och privat nyckelpar
+Rätt svar: c
+7. Vad är bästa praxis för att hantera secretKey i en produktionsmiljö?
+A) Hårdkoda den i JwtUtil-klassen  
+B) Lagra den i en miljövariabel eller konfigurationsfil  
+C) Använda samma nyckel i alla miljöer  
+D) Dela nyckeln i versionskontroll
+Rätt svar: b
+8. Vilken HTTP-metod bör användas för login-endpointen i AuthController?
+A) GET  
+B) PUT  
+C) POST  
+D) DELETE
+Rätt svar: c
+9. Vad händer om en JWT-token har gått ut?
+A) Den förnyas automatiskt  
+B) Användaren får fortsätta använda systemet  
+C) Servern returnerar ett felmeddelande  
+D) Token blir giltig igen vid nästa request
+Rätt svar: c
+10. Vilket är det första steget när en användare försöker komma åt en skyddad endpoint?
+A) Databasen kontrolleras  
+B) Token valideras  
+C) Lösenordet hashas  
+D) En ny token genereras
+Rätt svar: b
+1. Vad är den fundamentala skillnaden mellan OAuth2 och OpenID Connect?
+A) OAuth2 är nyare än OpenID Connect  
+B) OAuth2 hanterar auktorisation medan OpenID Connect hanterar autentisering  
+C) OAuth2 är mindre säkert än OpenID Connect  
+D) OAuth2 kan endast användas med Google
+Rätt svar: b
+2. Vad representerar "scope" i OAuth2/OpenID Connect?
+A) Tiden som en token är giltig  
+B) Storleken på användarens profil  
+C) Behörigheterna som appen begär  
+D) Antalet tillåtna inloggningsförsök
+Rätt svar: c
+3. Vilken typ av token innehåller användarinformation i OpenID Connect?
+A) Refresh Token  
+B) Access Token  
+C) ID Token  
+D) Bearer Token
+Rätt svar: c
+4. Vilket scope måste inkluderas för att använda OpenID Connect?
+A) profile  
+B) openid  
+C) email  
+D) auth
+Rätt svar: b
+5. Var bör OAuth2/OpenID Connect tokens lagras i en webbapplikation?
+A) I localStorage  
+B) I sessionStorage  
+C) I säkra cookies  
+D) I URL:en
+Rätt svar: c
+6. Vad är huvudsyftet med en ID Token i OpenID Connect?
+A) Att förnya utgångna tokens  
+B) Att auktorisera API-anrop  
+C) Att bevisa användarens identitet  
+D) Att kryptera data
+Rätt svar: c
+7. Vilket påstående om OAuth2 callback/redirect URI är korrekt?
+A) Den kan vara vilken URL som helst  
+B) Den måste vara exakt samma som registrerad i OAuth2-providern  
+C) Den behöver inte använda HTTPS  
+D) Den kan ändras dynamiskt under körning
+Rätt svar: b
+8. Vilken information bör INTE inkluderas i en access token?
+A) Utgångstid  
+B) Användarens lösenord  
+C) Scope  
+D) Client ID
+Rätt svar: b
+9. Vad är ett typiskt användningsfall för OpenID Connect?
+A) Filöverföring mellan servrar  
+B) Databasbackup  
+C) "Logga in med Google"  
+D) Nätverksövervakning
+Rätt svar: c
+10. Vilken HTTP-metod används vanligtvis för att hämta tokens från token-endpointen?
+A) GET  
+B) POST  
+C) PUT  
+D) DELETE
+Rätt svar: b
+1. Vad är det grundläggande syftet med RBAC?
+A) Att kryptera användardata  
+B) Att kontrollera användares behörigheter baserat på roller  
+C) Att hantera databasanslutningar  
+D) Att generera JWT tokens
+Rätt svar: b
+2. Vilken annotation används i Spring Boot för att säkra en endpoint med rollbehörighet?
+A) @Secured  
+B) @RoleRequired  
+C) @PreAuthorize  
+D) @RoleProtected
+Rätt svar: c
+3. Vad är bästa praxis gällande antal roller i ett system?
+A) Ju fler roller desto bättre  
+B) Håll det enkelt med få, väldefinierade roller  
+C) Skapa en unik roll för varje användare  
+D) Använd endast admin och användarroller
+Rätt svar: b
+4. Hur implementeras rollhierarki i Spring Security?
+A) Genom att använda @Hierarchy annotation  
+B) Genom att implementera RoleHierarchyImpl  
+C) Det går inte att implementera rollhierarki  
+D) Genom att använda @RoleInheritance
+Rätt svar: b
+5. Hur bör roller lagras i en JWT-token?
+A) I header  
+B) I signature  
+C) I claims  
+D) I URL:en
+Rätt svar: c
+6. Vilket är ett exempel på god praxis vid testning av RBAC?
+A) Testa endast admin-behörigheter  
+B) Skippa testning av behörigheter  
+C) Testa att användare inte kan nå otillåtna resurser  
+D) Bara testa i produktion  
+Rätt svar: c
+7. Hur bör felhantering implementeras för otillåten åtkomst?
+A) Ignorera felet tyst  
+B) Returnera en detaljerad stacktrace  
+C) Returnera HTTP 403 med ett tydligt meddelande  
+D) Omdirigera till startsidan  
+Rätt svar: c
+8. Vad är syftet med @EnableGlobalMethodSecurity i Spring Security?
+A) Aktiverar databaskoppling  
+B) Möjliggör användning av säkerhetsannotationer  
+C) Skapar automatiskt roller  
+D) Krypterar all kommunikation  
+Rätt svar: b
+9. Vad betyder det när en admin-roll ärver från en moderator-roll?
+A) Moderatorn får admin-rättigheter  
+B) Admin förlorar sina specifika rättigheter  
+C) Admin får moderatorns rättigheter plus sina egna  
+D) Rollerna blir identiska  
+Rätt svar: c
+10. Vilken är den rekommenderade metoden för att strukturera roller i ett system?
+A) Basera roller på användare istället för behörigheter  
+B) Skapa en ny roll för varje behörighet  
+C) Basera roller på behörigheter och ansvar  
+D) Kopiera roller från andra system  
+Rätt svar: c
+1. Vad är huvudsyftet med en .env fil?
+A) Att lagra känslig konfigurationsinformation  
+B) Att hantera Git-repositories  
+C) Att kompilera kod  
+D) Att hantera databasbackuper  
+Rätt svar: a
+2. Vad bör man göra om man av misstag laddat upp en .env fil till Git?
+A) Ignorera problemet  
+B) Bara ta bort filen från repot  
+C) Fortsätta som vanligt  
+D) Skapa nytt repo och rotera alla hemligheter  
+Rätt svar: d
+3. Vilket verktyg används ofta i Spring Boot för att hantera .env filer?
+A) dotenv-java  
+B) envparser  
+C) configreader  
+D) springenv  
+Rätt svar: a
+4. Hur bör olika miljöer hanteras i ett projekt?
+A) Använd samma .env för alla miljöer  
+B) Ha inga miljövariabler alls  
+C) Använd separata .env filer för olika miljöer  
+D) Hårdkoda värden i koden  
+Rätt svar: c
+5. Vilken fil används för att hindra .env från att checkas in i Git?
+A) .gitconfig  
+B) .gitattributes  
+C) .env.example  
+D) .gitignore  
+Rätt svar: d
+6. Hur bör känsliga miljövariabler delas mellan utvecklare?
+A) Via e-post  
+B) Via säker lösenordshanterare  
+C) I Git-repositoryt  
+D) På en publik webbsida  
+Rätt svar: b
+7. När bör miljövariabelvalidering ske?
+A) När användaren loggar in  
+B) När databasen uppdateras  
+C) När applikationen startar  
+D) När en request görs  
+Rätt svar: c
+8. Vad är syftet med en .env.example fil?
+A) Att lagra riktiga hemligheter  
+B) Att visa vilka variabler som behövs  
+C) Att köra tester  
+D) Att konfigurera Git  
+Rätt svar: b
+9. Vilken är bästa praxis för att hantera miljövariabler i produktionsmiljö?
+A) Använda samma som i utveckling  
+B) Inte använda några alls  
+C) Hårdkoda dem i koden  
+D) Hantera dem via deployment platform  
+Rätt svar: d
+10. Hur ofta bör känsliga miljövariabler roteras?
+A) Regelbundet enligt säkerhetspolicy  
+B) Aldrig  
+C) Bara vid säkerhetsincidenter  
+D) En gång om året  
+Rätt svar: a
+1. Vilket är INTE ett exempel på känslig information?
+A) Personnummer  
+B) Publika API-endpoints  
+C) Kreditkortsnummer  
+D) Hälsodata
+Rätt svar: b
+2. Hur bör API-nycklar hanteras i en applikation?
+A) Lagras i miljövariabler  
+B) Hårdkodas i källkoden  
+C) Sparas i publika repositories  
+D) Lagras i kommentarer
+Rätt svar: a
+3. Vilken är den rekommenderade metoden för lösenordslagring?
+A) Base64-kodning  
+B) Klartext  
+C) Kryptering  
+D) Hashning med salt
+Rätt svar: d
+4. Vad är bästa praxis för felhantering i API:er?
+A) Visa fullständig stacktrace  
+B) Returnera generiska felmeddelanden  
+C) Ignorera fel  
+D) Logga användardata
+Rätt svar: b
+5. Vilket protokoll bör användas för säker dataöverföring?
+A) HTTP  
+B) FTP  
+C) HTTPS  
+D) Telnet
+Rätt svar: c
+6. Vad är syftet med "kryptering i vila" (encryption at rest)?
+A) Att spara bandbredd  
+B) Att skydda lagrad data  
+C) Att öka prestandan  
+D) Att förenkla backup
+Rätt svar: b
+7. Hur bör känslig information hanteras i loggar?
+A) Logga all information  
+B) Aldrig logga något  
+C) Maskera känslig data  
+D) Bara logga felmeddelanden
+Rätt svar: c
+8. Vilken är den säkraste metoden för att lagra kryptografiska nycklar?
+A) I källkoden  
+B) I databasen  
+C) I en HSM (Hardware Security Module)  
+D) I konfigurationsfiler
+Rätt svar: c
+9. Vad är bästa praxis för datalagring enligt GDPR?
+A) Spara all data permanent  
+B) Samla bara nödvändig data  
+C) Kopiera data för säkerhet  
+D) Dela data fritt
+Rätt svar: b
+10. Hur ofta bör säkerhetsgranskningar av API:er genomföras?
+A) Regelbundet och vid större ändringar  
+B) Aldrig  
+C) Bara efter incidenter  
+D) En gång per år
+Rätt svar: a
+1. Vad är huvudsyftet med CORS?
+A) Att öka prestandan  
+B) Att begränsa vilka domäner som får anropa API:et  
+C) Att kryptera data  
+D) Att hantera databaskopplingar
+Rätt svar: b
+2. Hur bör CORS konfigureras i produktion?
+A) Tillåt alla origins med "\*"  
+B) Blockera alla anrop  
+C) Specificera exakta tillåtna domäner  
+D) Ignorera CORS helt
+Rätt svar: c
+3. Vad är en "preflight request"?
+A) En kontroll innan huvudanropet  
+B) En typ av autentisering  
+C) En cachningsstrategi  
+D) En databasförfrågan
+Rätt svar: a
+4. Vilken header används för att specificera tillåtna origins?
+A) Allow-Origins  
+B) Origin-Control  
+C) Access-Control-Allow-Origin  
+D) Cross-Origin-Allow
+Rätt svar: c
+5. Hur hanteras CORS i utvecklingsmiljö?
+A) Stäng av all CORS-kontroll  
+B) Tillåt localhost och specifika utvecklingsportar  
+C) Använd samma inställningar som i produktion  
+D) Ignorera CORS-fel
+Rätt svar: b
+6. Vilken HTTP-metod används för preflight-requests?
+A) GET  
+B) POST  
+C) OPTIONS  
+D) PUT
+Rätt svar: c
+7. Hur bör cookies hanteras i CORS-konfigurationen?
+A) Alltid tillåta alla cookies  
+B) Aldrig tillåta cookies  
+C) Sätta allowCredentials till true och specificera origin  
+D) Ignorera cookie-inställningar
+Rätt svar: c
+8. Vad är bästa praxis för att hantera CORS-fel i utveckling?
+A) Ignorera felen  
+B) Använda wildcard (\*)  
+C) Logga och analysera felen  
+D) Stänga av webbläsarens säkerhet
+Rätt svar: c
+9. Vilken CORS-header används för att specificera tillåtna HTTP-metoder?
+A) Access-Control-Allow-Methods  
+B) Allow-Methods  
+C) Allowed-HTTP-Methods  
+D) CORS-Methods-Allowed
+Rätt svar: a
+10. Hur länge bör preflight-svar cachas?
+A) För alltid  
+B) Aldrig  
+C) En rimlig tid som 1-24 timmar  
+D) 1 minut
+Rätt svar: c
+1. Vad är huvudsyftet med OpenAPI Specification (OAS)?
+A) Att optimera API-prestanda  
+B) Att generera API-kod automatiskt  
+C) Att standardisera beskrivningen av RESTful API:er  
+D) Att hantera databaskopplingar för API:er
+Rätt svar: c
+2. Vilken av följande är INTE en del av Swagger-verktygen?
+A) Swagger UI  
+B) Swagger Editor  
+C) Swagger Database  
+D) Swagger Codegen
+Rätt svar: c
+3. Vad är en fördel med att använda OpenAPI för API-dokumentation?
+A) Det eliminerar behovet av manuell testning  
+B) Det garanterar 100% felfri API-implementering  
+C) Det möjliggör automatisk generering av uppdaterad dokumentation  
+D) Det ersätter behovet av utvecklare i API-designprocessen
+Rätt svar: c
+4. Vilket format används vanligtvis för att skriva OpenAPI-specifikationer?
+A) XML och HTML  
+B) JSON och YAML  
+C) CSV och TXT  
+D) SQL och PHP
+Rätt svar: b
+5. Vad är huvudsyftet med Swagger UI?
+A) Att kompilera API-kod  
+B) Att generera interaktiv API-dokumentation  
+C) Att hantera databasmigrationer  
+D) Att övervaka API-prestanda i realtid
+Rätt svar: b
+6. Vad är en fördel med att använda en "design-first" approach när man skapar API-dokumentation med OpenAPI?
+A) Det eliminerar behovet av att skriva kod  
+B) Det garanterar felfri API-implementering  
+C) Det möjliggör tidig feedback och förbättrad API-design  
+D) Det ersätter behovet av utvecklare i API-processen
+Rätt svar: c
+7. Vilken av följande är INTE en rekommenderad praxis för att upprätthålla API-dokumentation?
+A) Använda en enda källa för dokumentationen  
+B) Inkludera interaktiva exempel  
+C) Uppdatera dokumentationen manuellt efter varje kodändring  
+D) Använda versionshantering för dokumentationen
+Rätt svar: c
+8. Vilket verktyg används ofta för att skapa interaktiv API-dokumentation baserad på OpenAPI-specifikationer?
+A) Postman  
+B) Swagger UI  
+C) Git  
+D) Visual Studio Code
+Rätt svar: b
+9. Vad är syftet med komponentsektionen i en OpenAPI-specifikation?
+A) Att definiera API:ns endpoints  
+B) Att specificera serverns URL  
+C) Att definiera återanvändbara element som scheman och parametrar  
+D) Att hantera autentisering och auktorisering
+Rätt svar: c
+10. Vilken information bör INTE inkluderas i en API-dokumentation av säkerhetsskäl?
+A) Autentiseringsmetoder  
+B) Felkoder och deras betydelser  
+C) Exempel på API-anrop  
+D) Faktiska API-nycklar eller lösenord
+Rätt svar: d
+1. Vad är huvudsyftet med att implementera Swagger i ett Spring Boot-projekt?
+A) Att öka applikationens prestanda  
+B) Att generera automatisk API-dokumentation  
+C) Att hantera databasanslutningar  
+D) Att implementera säkerhetsfunktioner  
+Rätt svar: b
+2. Vilken annotation används för att aktivera Swagger i en Spring Boot-applikation?
+C) @EnableSwagger2  
+A) @SwaggerConfig  
+D) @Configuration  
+B) @SpringBootApplication  
+Rätt svar: c
+3. Vilken URL används vanligtvis för att komma åt Swagger UI i en Spring Boot-applikation?
+B) http://localhost:8080/api-docs  
+D) http://localhost:8080/swagger  
+A) http://localhost:8080/swagger-ui/index.html  
+C) http://localhost:8080/api/documentation  
+Rätt svar: a
+4. Vilken annotation används för att beskriva en enskild API-operation i Swagger?
+D) @ApiModel  
+C) @ApiOperation  
+A) @ApiResponse  
+B) @ApiParam  
+Rätt svar: c
+5. Vad är syftet med Docket-klassen i Swagger-konfigurationen?
+A) Att hantera databaskopplingar  
+B) Att definiera säkerhetsinställningar  
+C) Att konfigurera Swagger's dokumentationsgenerering  
+D) Att skapa API-endpoints  
+Rätt svar: c
+6. Vilken annotation används för att gruppera relaterade API-operationer i Swagger?
+B) @ApiGroup  
+D) @ApiModel  
+A) @Api  
+C) @ApiOperation  
+Rätt svar: a
+7. Vad är huvudfördelen med att använda Swagger i ett Spring Boot-projekt?
+C) Det ökar API:ets prestanda  
+A) Det genererar automatiskt klientkod  
+D) Det förbättrar API:ets säkerhet  
+B) Det ger interaktiv API-dokumentation  
+Rätt svar: b
+8. Vilken annotation används för att beskriva möjliga svar från en API-operation i Swagger?
+A) @ApiResponse  
+C) @ApiOperation  
+B) @ApiModel  
+D) @ApiParam  
+Rätt svar: a
+9. Vad är syftet med @ApiModelProperty-annotationen i Swagger?
+D) Att beskriva en hel API-operation  
+B) Att gruppera relaterade API-operationer  
+A) Att beskriva egenskaper i en modellklass  
+C) Att definiera säkerhetskrav för API:et  
+Rätt svar: a
+10. Vilken typ av information kan Swagger automatiskt generera för ett Spring Boot API?
+C) Databasscheman  
+A) Prestandastatistik  
+B) API-endpoints och deras parametrar  
+D) Användarautentiseringslogik  
+Rätt svar: b
+1. Vad är huvudsyftet med Swagger?
+A) Att generera kod automatiskt  
+B) Att testa API:er  
+C) Att standardisera API-dokumentation  
+D) Att optimera API-prestanda
+Rätt svar: c
+2. Vilken av följande är INTE en del av grundläggande Swagger-koncept?
+A) Components  
+B) Operations  
+C) Paths  
+D) Middleware
+Rätt svar: d
+3. Hur implementerar man vanligtvis Swagger i ett Spring Boot-projekt?
+A) Genom att använda en extern dokumentationstjänst  
+B) Genom att skriva manuell HTML-dokumentation  
+C) Genom att skriva kommentarer i koden  
+D) Genom att lägga till en Swagger-beroende och konfigurera den
+Rätt svar: d
+4. Vilken annotation används för att beskriva en API-operation i Swagger?
+A) @ApiOperation  
+B) @Operation  
+C) @SwaggerOperation  
+D) @DocumentOperation
+Rätt svar: b
+5. Vad är syftet med @ApiResponses-annotationen i Swagger?
+A) Att beskriva API:ets övergripande struktur  
+B) Att dokumentera möjliga svarskoder och deras betydelser  
+C) Att specificera förfrågningsparametrar  
+D) Att definiera säkerhetsscheman
+Rätt svar: b
+6. Vilken av följande är INTE en fördel med att använda Swagger?
+A) Det förbättrar utvecklarupplevelsen  
+B) Det underlättar API-underhåll och uppdateringar  
+C) Det eliminerar behovet av manuell testning  
+D) Det minskar supportkostnader
+Rätt svar: c
+7. Vad är huvudsyftet med Swagger UI?
+A) Att automatisera API-testning  
+B) Att generera klientbibliotek  
+C) Att optimera API-prestanda  
+D) Att tillhandahålla interaktiv API-dokumentation
+Rätt svar: d
+8. Vilken fil används vanligtvis för att definiera Swagger/OpenAPI-specifikationen i ett projekt?
+A) swagger.json  
+B) swagger-config.xml  
+C) api-docs.yaml  
+D) openapi.yaml
+Rätt svar: d
+9. Vad är en best practice för att strukturera Swagger-dokumentation?
+A) Att gruppera relaterade operationer med taggning  
+B) Att använda olika namngivningskonventioner för varje endpoint  
+C) Att inkludera så mycket teknisk jargong som möjligt  
+D) Att undvika att dokumentera felkoder
+Rätt svar: a
+10. Vilken av följande är INTE en del av avancerade funktioner i Swagger?
+A) Återanvändbara komponenter  
+B) Anpassade scheman  
+C) Automatisk kodgenerering  
+D) Säkerhetsdefinitioner
+Rätt svar: c
+1. Vad är huvudsyftet med att generera klientbibliotek från API-specifikationer?
+A) Att förbättra API:ets prestanda  
+B) Att automatisera skapandet av API-dokumentation  
+C) Att förenkla interaktionen med API:er för utvecklare  
+D) Att öka säkerheten i API-anrop  
+Rätt svar: c
+2. Vilket verktyg används primärt för att generera klientbibliotek från OpenAPI-specifikationer?
+A) Spring Boot  
+B) Postman  
+C) Maven  
+D) Swagger Codegen  
+Rätt svar: d
+3. Vilken av följande är INTE en fördel med att använda genererade klientbibliotek?
+A) Minskad utvecklingstid  
+B) Förbättrad typsäkerhet  
+C) Garanterad felfri API-implementation  
+D) Konsekvent användning av API:et  
+Rätt svar: c
+4. Hur kan man installera Swagger Codegen i ett Maven-projekt?
+A) Genom att lägga till en dependency i pom.xml  
+B) Genom att installera en global CLI-verktyg  
+C) Genom att lägga till en plugin i pom.xml  
+D) Genom att använda npm install  
+Rätt svar: c
+5. Vilken fil används för att anpassa genereringen av klientbibliotek med Swagger Codegen?
+A) pom.xml  
+B) application.properties  
+C) swagger.yaml  
+D) config.json  
+Rätt svar: d
+6. Vilken av följande är INTE en typisk katalog i den genererade biblioteksstrukturen?
+A) api  
+B) client  
+C) controllers  
+D) model  
+Rätt svar: c
+7. Vad är en best practice när man arbetar med genererade klientbibliotek?
+A) Manuellt uppdatera genererad kod  
+B) Ignorera versionskontroll för genererade bibliotek  
+C) Automatisera genereringsprocessen  
+D) Undvika att testa genererade bibliotek  
+Rätt svar: c
+8. Vilken av följande är en utmaning när man använder genererade klientbibliotek?
+A) Ökad säkerhet i API-anrop  
+B) Komplexitet i genererad kod  
+C) Minskad flexibilitet i API-design  
+D) Ökad nätverksbelastning  
+Rätt svar: b
+9. Hur integrerar man vanligtvis ett genererat klientbibliotek i ett Java-projekt?
+A) Genom att kopiera källkoden manuellt  
+B) Genom att lägga till en Maven-dependency  
+C) Genom att använda en CDN-länk  
+D) Genom att inkludera en JAR-fil i classpath  
+Rätt svar: b
+10. Vad är en fördel med att använda genererade klientbibliotek jämfört med att skriva egen kod för API-interaktioner?
+A) Garanterad bakåtkompatibilitet  
+B) Eliminering av alla runtime-fel  
+C) Automatisk hantering av autentisering  
+D) Obegränsad anpassningsbarhet  
+Rätt svar: c
+1. Vad är huvudsyftet med semantisk versionering (SemVer) i API-dokumentation?
+A) Att göra versioner lättare att minnas  
+B) Att indikera vilka ändringar som gjorts mellan versioner  
+C) Att förhindra bakåtkompatibilitet  
+D) Att öka antalet versioner som släpps
+Rätt svar: b
+2. Vilken metod för versionhantering inkluderar versionsnumret i API:ets bas-URL?
+A) Semantisk versionering  
+B) Git-baserad versionering  
+C) Header-baserad versionering  
+D) URL-baserad versionering
+Rätt svar: d
+3. Vilken är en fördel med att använda tags i Swagger/OpenAPI-dokumentation?
+A) Det förbättrar API:ets säkerhet  
+B) Det ökar hastigheten på API-anrop  
+C) Det automatiserar testning av API:et  
+D) Det gör det enklare att navigera i dokumentationen  
+Rätt svar: d
+4. Vad är syftet med att inkludera exempel och scheman i API-dokumentationen?
+A) Att öka storleken på dokumentationen  
+B) Att göra dokumentationen mer visuellt tilltalande  
+C) Att ge användare en tydlig förståelse för hur API:et fungerar  
+D) Att försvåra för konkurrenter att förstå API:et
+Rätt svar: c
+5. Vad är en rekommenderad metod för att hantera föråldrade (deprecated) API-funktioner?
+A) Markera dem som föråldrade i dokumentationen  
+B) Ignorera dem och låta dem vara kvar oförändrade  
+C) Byta namn på dem för att dölja att de är föråldrade  
+D) Ta bort dem omedelbart utan förvarning
+Rätt svar: a
+6. Vilken är en fördel med att använda Git för versionskontroll av API-dokumentation?
+A) Det möjliggör spårning av ändringar över tid  
+B) Det förhindrar alla konflikter mellan utvecklare  
+C) Det eliminerar behovet av manuell dokumentation  
+D) Det automatiskt genererar API-kod
+Rätt svar: a
+7. Vad är en utmaning med att hantera flera aktiva versioner av ett API samtidigt?
+A) Det gör API:et snabbare  
+B) Det kräver mer lagringsutrymme  
+C) Det förbättrar automatiskt bakåtkompatibiliteten  
+D) Det ökar komplexiteten i kodbasen och underhållet
+Rätt svar: d
+8. Vilken är en rekommenderad metod för att kommunicera API-ändringar till användare?
+A) Genom att ändra API:et utan förvarning  
+B) Genom att skicka personliga e-postmeddelanden till varje användare  
+C) Genom att tillhandahålla en detaljerad changelog  
+D) Genom att ignorera ändringar och låta användare upptäcka dem själva  
+Rätt svar: c
+9. Vad är syftet med att använda deprecation-flaggan i Swagger/OpenAPI?
+A) Att förbättra säkerheten i API:et  
+B) Att markera funktioner som kommer att tas bort i framtiden  
+C) Att lägga till nya funktioner i API:et  
+D) Att öka prestandan för API:et
+Rätt svar: b
+10. Vilken är en fördel med att använda semantisk versionering (SemVer) i API-dokumentation?
+A) Det automatiserar kodgenerering  
+B) Det tydliggör omfattningen av ändringar mellan versioner  
+C) Det gör API:et snabbare  
+D) Det förbättrar säkerheten i API:et  
+Rätt svar: b

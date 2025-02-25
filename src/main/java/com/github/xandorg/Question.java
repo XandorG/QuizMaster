@@ -33,4 +33,13 @@ public class Question {
         return isCorrect;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder questionString = new StringBuilder(question + "\n");
+        for (String answer : answers) {
+            questionString.append(answer).append("\n");
+        }
+        questionString.append("Rätt svar: ").append(correctAnswer).append("\n");
+        return questionString.toString();
+    }
 }
