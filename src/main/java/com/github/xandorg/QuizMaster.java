@@ -20,14 +20,13 @@ public class QuizMaster {
 
 
     public QuizMaster(File quiz) {
-        questionList = getQuestions(quiz);
+        questionList = QuizReader.getQuestions(quiz);
     }
 
     public void runQuiz() {
-        Random random = new Random();
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            Question question = questionList.get(random.nextInt(questionList.size()));
+            Question question = selectQuestion();
             question.printQuestion();
 
             String answer = scanner.nextLine();
@@ -44,46 +43,28 @@ public class QuizMaster {
     }
 
     public Question selectQuestion() {
-        return null;
+        Random random = new Random();
+
+//        int correctPercentage = 10;
+//        int unknownPercentage = 15 + correctPercentage;
+//        int neutralPercentage = 25 + unknownPercentage;
+//        int wrongPercentage = 50 + neutralPercentage;
+//
+//        int listSelection = random.nextInt(101);
+//        if (listSelection < correctPercentage) {
+//            //Correctly answered questions
+//        } else if (listSelection < unknownPercentage) {
+//            //Unknown questions
+//        } else if (listSelection < neutralPercentage) {
+//            //Neutral Answered questions
+//        } else if (listSelection <= wrongPercentage){
+//            //Wrongly answered questions
+//        }
+
+        Question question = questionList.get(random.nextInt(questionList.size()));
+        return question;
     }
 
-    private List<Question> getQuestions(File quiz) {
-        List<Question> questions = new ArrayList<>();
-        try (Scanner scanner = new Scanner(quiz)) {
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                if (line.contains("#")) {
-                    continue;
-                }
-                if (line.contains("?")) {
-                    questions.add(readQuestion(scanner, line));
-                }
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return questions;
-    }
 
-    private Question readQuestion(Scanner scanner, String question) {
-        List<String> answers = new ArrayList<>();
-        char correctAnswer = 'ö';
-        while (scanner.hasNextLine()) {
-            String line = scanner.nextLine();
-            if (line.contains("A) ")) {
-                answers.add(line);
-                for (int i = 0; i < 3; i++) {
-                    line = scanner.nextLine();
-                    answers.add(line);
-                }
-                continue;
-            }
-            if (line.contains("Rätt svar:")) {
-                correctAnswer = line.toLowerCase().charAt(line.length()-1);
-                break;
-            }
-        }
-        return new Question(question, answers, correctAnswer);
-    }
 
 }
