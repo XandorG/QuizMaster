@@ -1,19 +1,23 @@
 package com.github.xandorg;
 
+import com.github.xandorg.config.DatabaseConnection;
+import com.github.xandorg.config.H2Connection;
+import com.github.xandorg.entity.Question;
+
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class QuizMaster {
-    List<Question> questionList;
+    private final List<Question> questionList;
+    private final Random random = new Random();
 
 
     public static void main(String[] args) {
 //        String fullQuizPath = "src/main/resources/Test_quiz_Updated_250114-COMPLETE.md";
         String fullQuizPath = "src/main/resources/APIQuiz.txt";
+
+        DatabaseConnection connection = new H2Connection();
+        connection.getSessionFactory();
 
         QuizMaster quizMaster = new QuizMaster(new File(fullQuizPath));
         quizMaster.runQuiz();
@@ -37,14 +41,14 @@ public class QuizMaster {
             if (question.checkAnswer(answer.toLowerCase().charAt(0))) {
                 System.out.println("Correct!!");
             } else {
-                System.out.println("Wrong answer!\n Correct answer: " + question.correctAnswer);
+                System.out.println("Wrong answer!\n Correct answer: " + question.getCorrectAnswer());
             }
         }
         scanner.close();
     }
 
     public Question selectQuestion() {
-        Random random = new Random();
+        Question question;
 
 //        int correctPercentage = 10;
 //        int unknownPercentage = 15 + correctPercentage;
@@ -59,14 +63,14 @@ public class QuizMaster {
 //            //Unknown questions
 //            System.out.println("Unknown");
 //        } else if (listSelection < neutralPercentage) {
-//            System.out.println("Neutral");
 //            //Neutral Answered questions
+//            System.out.println("Neutral");
 //        } else if (listSelection <= wrongPercentage){
-//            System.out.println("Wrong");
 //            //Wrongly answered questions
+//            System.out.println("Wrong");
 //        }
 
-        Question question = questionList.get(random.nextInt(questionList.size()));
+        question = questionList.get(random.nextInt(questionList.size()));
         return question;
     }
 

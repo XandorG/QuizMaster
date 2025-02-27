@@ -1682,122 +1682,62 @@ Rätt svar: d
 A) Att öka applikationens prestanda  
 B) Att generera automatisk API-dokumentation  
 C) Att hantera databasanslutningar  
-D) Att implementera säkerhetsfunktioner  
+D) Att implementera säkerhetsfunktioner
 Rätt svar: b
 2. Vilken annotation används för att aktivera Swagger i en Spring Boot-applikation?
 C) @EnableSwagger2  
 A) @SwaggerConfig  
 D) @Configuration  
-B) @SpringBootApplication  
-Rätt svar: c
+B) @SpringBootApplication
+Rätt svar: d
 3. Vilken URL används vanligtvis för att komma åt Swagger UI i en Spring Boot-applikation?
 B) http://localhost:8080/api-docs  
 D) http://localhost:8080/swagger  
 A) http://localhost:8080/swagger-ui/index.html  
-C) http://localhost:8080/api/documentation  
+C) http://localhost:8080/api/documentation
 Rätt svar: a
 4. Vilken annotation används för att beskriva en enskild API-operation i Swagger?
 D) @ApiModel  
-C) @ApiOperation  
+C) @Operation  
 A) @ApiResponse  
-B) @ApiParam  
+B) @Parameter
 Rätt svar: c
-5. Vad är syftet med Docket-klassen i Swagger-konfigurationen?
-A) Att hantera databaskopplingar  
+5. Vad är syftet med OpenAPI-klassen i Swagger-konfigurationen?
+A) Att hantera databasanslutningar  
 B) Att definiera säkerhetsinställningar  
-C) Att konfigurera Swagger's dokumentationsgenerering  
-D) Att skapa API-endpoints  
+C) Att konfigurera Swaggers dokumentationsgenerering  
+D) Att skapa API-endpoints
 Rätt svar: c
 6. Vilken annotation används för att gruppera relaterade API-operationer i Swagger?
 B) @ApiGroup  
 D) @ApiModel  
-A) @Api  
-C) @ApiOperation  
+A) @Tag  
+C) @Operation
 Rätt svar: a
 7. Vad är huvudfördelen med att använda Swagger i ett Spring Boot-projekt?
 C) Det ökar API:ets prestanda  
 A) Det genererar automatiskt klientkod  
 D) Det förbättrar API:ets säkerhet  
-B) Det ger interaktiv API-dokumentation  
+B) Det ger interaktiv API-dokumentation
 Rätt svar: b
 8. Vilken annotation används för att beskriva möjliga svar från en API-operation i Swagger?
 A) @ApiResponse  
-C) @ApiOperation  
+C) @Operation  
 B) @ApiModel  
-D) @ApiParam  
+D) @Parameter
 Rätt svar: a
-9. Vad är syftet med @ApiModelProperty-annotationen i Swagger?
+9. Vad är syftet med @Schema-annotationen i Swagger?
 D) Att beskriva en hel API-operation  
 B) Att gruppera relaterade API-operationer  
 A) Att beskriva egenskaper i en modellklass  
-C) Att definiera säkerhetskrav för API:et  
+C) Att definiera säkerhetskrav för API:et
 Rätt svar: a
 10. Vilken typ av information kan Swagger automatiskt generera för ett Spring Boot API?
-C) Databasscheman  
+C) Databasschema  
 A) Prestandastatistik  
 B) API-endpoints och deras parametrar  
-D) Användarautentiseringslogik  
+D) Användarautentiseringslogik
 Rätt svar: b
-1. Vad är huvudsyftet med Swagger?
-A) Att generera kod automatiskt  
-B) Att testa API:er  
-C) Att standardisera API-dokumentation  
-D) Att optimera API-prestanda
-Rätt svar: c
-2. Vilken av följande är INTE en del av grundläggande Swagger-koncept?
-A) Components  
-B) Operations  
-C) Paths  
-D) Middleware
-Rätt svar: d
-3. Hur implementerar man vanligtvis Swagger i ett Spring Boot-projekt?
-A) Genom att använda en extern dokumentationstjänst  
-B) Genom att skriva manuell HTML-dokumentation  
-C) Genom att skriva kommentarer i koden  
-D) Genom att lägga till en Swagger-beroende och konfigurera den
-Rätt svar: d
-4. Vilken annotation används för att beskriva en API-operation i Swagger?
-A) @ApiOperation  
-B) @Operation  
-C) @SwaggerOperation  
-D) @DocumentOperation
-Rätt svar: b
-5. Vad är syftet med @ApiResponses-annotationen i Swagger?
-A) Att beskriva API:ets övergripande struktur  
-B) Att dokumentera möjliga svarskoder och deras betydelser  
-C) Att specificera förfrågningsparametrar  
-D) Att definiera säkerhetsscheman
-Rätt svar: b
-6. Vilken av följande är INTE en fördel med att använda Swagger?
-A) Det förbättrar utvecklarupplevelsen  
-B) Det underlättar API-underhåll och uppdateringar  
-C) Det eliminerar behovet av manuell testning  
-D) Det minskar supportkostnader
-Rätt svar: c
-7. Vad är huvudsyftet med Swagger UI?
-A) Att automatisera API-testning  
-B) Att generera klientbibliotek  
-C) Att optimera API-prestanda  
-D) Att tillhandahålla interaktiv API-dokumentation
-Rätt svar: d
-8. Vilken fil används vanligtvis för att definiera Swagger/OpenAPI-specifikationen i ett projekt?
-A) swagger.json  
-B) swagger-config.xml  
-C) api-docs.yaml  
-D) openapi.yaml
-Rätt svar: d
-9. Vad är en best practice för att strukturera Swagger-dokumentation?
-A) Att gruppera relaterade operationer med taggning  
-B) Att använda olika namngivningskonventioner för varje endpoint  
-C) Att inkludera så mycket teknisk jargong som möjligt  
-D) Att undvika att dokumentera felkoder
-Rätt svar: a
-10. Vilken av följande är INTE en del av avancerade funktioner i Swagger?
-A) Återanvändbara komponenter  
-B) Anpassade scheman  
-C) Automatisk kodgenerering  
-D) Säkerhetsdefinitioner
-Rätt svar: c
 1. Vad är huvudsyftet med att generera klientbibliotek från API-specifikationer?
 A) Att förbättra API:ets prestanda  
 B) Att automatisera skapandet av API-dokumentation  
@@ -1918,3 +1858,243 @@ B) Det tydliggör omfattningen av ändringar mellan versioner
 C) Det gör API:et snabbare  
 D) Det förbättrar säkerheten i API:et  
 Rätt svar: b
+1. Vilken av följande är INTE en av de huvudsakliga strategierna för API-testning enligt artikeln?
+A) Skiktad testning  
+B) Automatiserad testning  
+C) Kodgenereringsstyrd testning  
+D) Kontraktsbaserad testning
+Rätt svar: c
+2. Vilken testtyp fokuserar på att verifiera att olika delar av API:et fungerar korrekt tillsammans och med externa system?
+A) Enhetstestning  
+B) Integrationstestning  
+C) Systemtestning  
+D) Acceptanstestning
+Rätt svar: b
+3. Vilken testmetodik är särskilt viktig i mikroservicemiljöer där flera team kan utveckla olika API:er som behöver interagera med varandra?
+A) Datadriven testning  
+B) End-to-end testning  
+C) Kontraktsbaserad testning  
+D) Prestandatestning
+Rätt svar: c
+4. Vilket verktyg används typiskt för att simulera beroenden och externa tjänster under API-testning?
+A) JUnit  
+B) RestAssured  
+C) Apache JMeter  
+D) WireMock
+Rätt svar: d
+5. Vilken aspekt av API-testning hjälper till att identifiera områden med bristande testning genom att mäta hur mycket av koden som exekveras under tester?
+A) Testprioritering  
+B) Kodtäckningsanalys  
+C) Felinjicering  
+D) Kontraktsbaserad testning
+Rätt svar: b
+6. Vad är det primära syftet med prestandatestning av API:er?
+A) Att säkerställa att API:et fungerar enligt funktionella krav  
+B) Att verifiera att API:et kan hantera förväntade volymer av samtidiga anrop  
+C) Att kontrollera att API:et följer säkerhetsstandarder  
+D) Att validera att API:et kan integreras med andra system
+Rätt svar: b
+7. Vilken API-testningspraktik hjälper till att säkerställa att API:et uppför sig korrekt när anrop tar längre tid än förväntat?
+A) Belastningstestning  
+B) Timeout-testning  
+C) Kontraktsbaserad testning  
+D) Felinjicering
+Rätt svar: b
+8. Vilket av följande är ett exempel på negativ testning av ett API?
+A) Testa att API:et kan hantera tusentals samtidiga anrop  
+B) Verifiera att API:et returnerar förväntade resultat för giltiga ingångar  
+C) Kontrollera att API:et ger lämpliga felmeddelanden för ogiltig indata  
+D) Mäta responstiden för API-anrop under normal belastning
+Rätt svar: c
+9. Vilken teknik används för att möjliggöra mer flexibel testning av nya API-funktioner i produktionsmiljö med minskad risk?
+A) A/B-testning  
+B) Kodtäckningsanalys  
+C) Testautomatisering  
+D) Feature flagging
+Rätt svar: d
+10. Vad är det främsta syftet med bakåtkompatibilitetstestning av API:er?
+A) Att säkerställa att nya versioner av API:et har förbättrad prestanda  
+B) Att verifiera att API:et fungerar med äldre versioner av programmeringsspråk  
+C) Att kontrollera att API-förändringar inte bryter befintliga integrationer  
+D) Att testa API:et mot äldre operativsystem
+Rätt svar: c
+1. Vilken av följande är INTE en av de huvudsakliga strategierna för API-testning enligt artikeln?
+A) Skiktad testning  
+B) Automatiserad testning  
+C) Kodgenereringsstyrd testning  
+D) Kontraktsbaserad testning
+Rätt svar: c
+2. Vilken testtyp fokuserar på att verifiera att olika delar av API:et fungerar korrekt tillsammans och med externa system?
+A) Enhetstestning  
+B) Integrationstestning  
+C) Systemtestning  
+D) Acceptanstestning
+Rätt svar: b
+3. Vilken testmetodik är särskilt viktig i mikroservicemiljöer där flera team kan utveckla olika API:er som behöver interagera med varandra?
+A) Datadriven testning  
+B) End-to-end testning  
+C) Kontraktsbaserad testning  
+D) Prestandatestning
+Rätt svar: c
+4. Vilket verktyg används typiskt för att simulera beroenden och externa tjänster under API-testning?
+A) JUnit  
+B) RestAssured  
+C) Apache JMeter  
+D) WireMock
+Rätt svar: d
+5. Vilken aspekt av API-testning hjälper till att identifiera områden med bristande testning genom att mäta hur mycket av koden som exekveras under tester?
+A) Testprioritering  
+B) Kodtäckningsanalys  
+C) Felinjicering  
+D) Kontraktsbaserad testning
+Rätt svar: b
+6. Vad är det primära syftet med prestandatestning av API:er?
+A) Att säkerställa att API:et fungerar enligt funktionella krav  
+B) Att verifiera att API:et kan hantera förväntade volymer av samtidiga anrop  
+C) Att kontrollera att API:et följer säkerhetsstandarder  
+D) Att validera att API:et kan integreras med andra system
+Rätt svar: b
+7. Vilken API-testningspraktik hjälper till att säkerställa att API:et uppför sig korrekt när anrop tar längre tid än förväntat?
+A) Belastningstestning  
+B) Timeout-testning  
+C) Kontraktsbaserad testning  
+D) Felinjicering
+Rätt svar: b
+8. Vilket av följande är ett exempel på negativ testning av ett API?
+A) Testa att API:et kan hantera tusentals samtidiga anrop  
+B) Verifiera att API:et returnerar förväntade resultat för giltiga ingångar  
+C) Kontrollera att API:et ger lämpliga felmeddelanden för ogiltig indata  
+D) Mäta responstiden för API-anrop under normal belastning
+Rätt svar: c
+9. Vilken teknik används för att möjliggöra mer flexibel testning av nya API-funktioner i produktionsmiljö med minskad risk?
+A) A/B-testning  
+B) Kodtäckningsanalys  
+C) Testautomatisering  
+D) Feature flagging
+Rätt svar: d
+10. Vad är det främsta syftet med bakåtkompatibilitetstestning av API:er?
+A) Att säkerställa att nya versioner av API:et har förbättrad prestanda  
+B) Att verifiera att API:et fungerar med äldre versioner av programmeringsspråk  
+C) Att kontrollera att API-förändringar inte bryter befintliga integrationer  
+D) Att testa API:et mot äldre operativsystem
+Rätt svar: c
+1. Vad är den primära funktionen i Postman?
+A) Kodeditor för API-utveckling  
+B) Plattform för API-utveckling, testning och dokumentation  
+C) Databas för API-nyckelhantering  
+D) Verktyg för att generera kod för API-anrop
+Rätt svar: b
+2. Vilken typ av språk används för att skriva tester i Postman?
+A) Python  
+B) Java  
+C) JavaScript  
+D) SQL
+Rätt svar: c
+3. Vad är syftet med "Collection Runner" i Postman?
+A) Att skapa nya API-endpoints  
+B) Att köra serier av förfrågningar i en specifik ordning  
+C) Att generera klientkod för API:er  
+D) Att jämföra prestanda mellan olika API:er
+Rätt svar: b
+4. Vad är miljövariabler i Postman?
+A) Variabler som ställer in miljön där Postman körs  
+B) Konfigurerbara värden som kan användas i förfrågningar och tester  
+C) Variabler som endast kan användas i produktionsmiljö  
+D) Inställningar som definierar hur Postman-gränssnittet ser ut
+Rätt svar: b
+5. Hur refererar du till en miljövariabel i en Postman-förfrågan?
+A) $variableName  
+B) %variableName%  
+C) {{variableName}}  
+D) $(variableName)
+Rätt svar: c
+6. Vad är huvudsyftet med pre-request skript i Postman?
+A) Att validera API-svar  
+B) Att dokumentera API-anrop  
+C) Att förbereda data eller miljön innan förfrågan skickas  
+D) Att skapa automatiska testrapporter
+Rätt svar: c
+7. Hur kan du göra datadrivna tester i Postman?
+A) Genom att manuellt ändra testdata för varje testkörning  
+B) Genom att använda miljövariabler för att lagra testfall  
+C) Genom att använda Collection Runner med en CSV- eller JSON-fil  
+D) Genom att skapa separata collections för varje testfall
+Rätt svar: c
+8. Vilken av följande är ett korrekt test för att verifiera en 201-statuskod i Postman?
+A) `pm.expect(status).to.equal(201);`  
+B) `pm.test("Status is created", function() { status === 201 });`  
+C) `pm.test("Status code is 201", function() { pm.response.to.have.status(201); });`  
+D) `assert.equal(pm.response.code, 201);`
+Rätt svar: c
+9. Vilket Newman-kommando skulle du använda för att köra en Postman-collection med en specifik miljö från kommandoraden?
+A) `newman start collection.json --env environment.json`  
+B) `newman execute collection.json -environment environment.json`  
+C) `newman run collection.json -e environment.json`  
+D) `newman test collection.json --environment environment.json`
+Rätt svar: c
+10. Vad är Postman Monitors?
+A) Verktyg för att övervaka Postman-applikationens prestanda  
+B) Schemalagda körningar av collections för att övervaka API-hälsa över tid  
+C) Verktyg för att logga och analysera API-användning  
+D) Användargränssnitt för att visa testresultat
+Rätt svar: b
+1. Vilket mönster används för att strukturera tester i RestAssured?
+A) Setup-Execute-Verify  
+B) Arrange-Act-Assert  
+C) Given-When-Then  
+D) Build-Run-Check
+Rätt svar: c
+2. Hur specificerar du en path-parameter i RestAssured?
+A) `.pathParam("id", 1)`  
+B) `.pathVariable("id", 1)`  
+C) `.path("id", 1)`  
+D) `.urlParam("id", 1)`
+Rätt svar: a
+3. Vilken import-sats behöver du inkludera för att använda RestAssured:s fluent API med static imports?
+A) `import io.restassured.api.*;`  
+B) `import static io.restassured.RestAssured.*;`  
+C) `import io.restassured.RestAssured;`  
+D) `import static io.rest.assured.Api.*;`
+Rätt svar: b
+4. Hur validerar du att en JSON-respons har ett specifikt värde i RestAssured?
+A) `.body("field", matches("value"))`  
+B) `.body("field", equalTo("value"))`  
+C) `.assertThat("field", is("value"))`  
+D) `.expect("field").toEqual("value")`
+Rätt svar: b
+5. Vilket Maven-beroende behöver du för att kunna använda RestAssured i ditt projekt?
+A) `org.rest-assured:rest-assured`  
+B) `com.jayway.restassured:rest-assured`  
+C) `io.rest-assured:rest-assured`  
+D) `io.restassured:restassured`
+Rätt svar: c
+6. Hur extraherar du data från en respons för att använda i ett senare test i RestAssured?
+A) `.extract().path("field")`  
+B) `.extract().json("field")`  
+C) `.get("field")`  
+D) `.jsonPath().get("field")`
+Rätt svar: a
+7. Hur konfigurerar du RequestSpecification för återanvändbara förfrågningsinställningar i RestAssured?
+A) Genom att skapa en instans med `new RequestSpecification()`  
+B) Genom att använda `RequestSpecBuilder`  
+C) Genom att använda `RestAssured.specification()`  
+D) Genom att extrahera från en tidigare förfrågan
+Rätt svar: b
+8. Vilket av följande är INTE ett sätt att validera JSON-scheman i RestAssured?
+A) `.body(matchesJsonSchema(jsonSchema))`  
+B) `.body(matchesJsonSchemaInClasspath("schema.json"))`  
+C) `.assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonSchema))`  
+D) `.validateSchema("schema.json")`
+Rätt svar: d
+9. Vilken metod använder du för att testa en HTTP POST-förfrågan i RestAssured?
+A) `.post(url)`  
+B) `.request("POST", url)`  
+C) `.method(HttpMethod.POST, url)`  
+D) `.send(HttpMethod.POST, url)`
+Rätt svar: a
+10. Hur konfigurerar du Basic Authentication i RestAssured?
+A) `.auth().basic(username, password)`  
+B) `.basicAuth(username, password)`  
+C) `.header("Authorization", "Basic " + encodedCredentials)`  
+D) `.authentication().basic(username, password)`
+Rätt svar: a

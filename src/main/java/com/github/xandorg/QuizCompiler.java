@@ -1,6 +1,7 @@
 package com.github.xandorg;
 
-import org.json.JSONObject;
+
+import com.github.xandorg.entity.Question;
 
 import java.io.File;
 import java.io.IOException;

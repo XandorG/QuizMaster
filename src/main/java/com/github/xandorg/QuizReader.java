@@ -1,5 +1,8 @@
 package com.github.xandorg;
 
+import com.github.xandorg.entity.Answer;
+import com.github.xandorg.entity.Question;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -28,15 +31,15 @@ public class QuizReader {
     }
 
     private static Question readQuestion(Scanner scanner, String question) {
-        List<String> answers = new ArrayList<>();
+        List<Answer> answers = new ArrayList<>();
         char correctAnswer = 'ö';
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             if ((line.contains("A) ") || line.contains("B) ") || line.contains("C) ") || line.contains("D) ")) && !line.contains("Rätt svar:")) {
-                answers.add(line);
+                answers.add(new Answer(line, false));
                 for (int i = 0; i < 3; i++) {
                     line = scanner.nextLine();
-                    answers.add(line);
+                    answers.add(new Answer(line, false));
                 }
                 continue;
             }
