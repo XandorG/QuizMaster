@@ -11,5 +11,5 @@ public interface AnswerDAO {
     List<Answer> findAll();
     void update(Answer answer);
     void delete(Answer answer);
-    List<Answer> findByQuestionId(Long departmentId);
+    List<Answer> findByQuestionId(Long questionId);
 }
